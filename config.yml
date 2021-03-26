@@ -28,10 +28,10 @@ params:
 
     ShowReadingTime: true
     ShowShareButtons: false
-    disableSpecial1stPost: false
+    disableSpecial1stPost: true
     comments: false
     hidemeta: false
-    showtoc: false
+    showtoc:
     tocopen: false
 
     assets:
@@ -47,18 +47,13 @@ params:
         text: "GRIP"
     # profile-mode
     profileMode:
-        enabled: false # needs to be explicitly set
-        title: ExampleSite
-        subtitle: "This is subtitle"
-        imageUrl: "<img location>"
-        imageWidth: 120
-        imageHeight: 120
+        enabled: true # needs to be explicitly set
+        title: "About"
+        subtitle: "GRIP is a project led by the Department of Energy’s SLAC National Accelerator Laboratory that combines artificial intelligence with massive amounts of data and industry experience from a dozen U.S. partners to identify places where the electric grid is vulnerable to disruption, reinforce those spots in advance and recover faster when failures do occur."
+        imageUrl: "https://github.com/PresencePG/grip-client/raw/develop/src/css/zeplin/DataManagement/img/sidebar.svg"
+        imageWidth: 200
+        imageHeight: 170
         imageTitle: my image
-        buttons:
-            - name: Posts
-              url: posts
-            - name: Tags
-              url: tags
 
     # home-info mode
     homeInfoParams:
