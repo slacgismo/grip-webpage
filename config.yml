@@ -48,9 +48,9 @@ params:
     # profile-mode
     profileMode:
         enabled: true # needs to be explicitly set
-        title: "About"
+        title: "GRIP"
         subtitle: "GRIP is a project led by the Department of Energy’s SLAC National Accelerator Laboratory that combines artificial intelligence with massive amounts of data and industry experience from a dozen U.S. partners to identify places where the electric grid is vulnerable to disruption, reinforce those spots in advance and recover faster when failures do occur."
-        imageUrl: "https://raw.githubusercontent.com/PresencePG/grip-client/a8e8ce832ae946ce698a1cb700e2d8d481a60f72/src/css/zeplin/DataManagement/img/sidebar.svg?token=AHAIV2BK45KUGEIKU2FNZOLALZTTI"
+        # imageUrl: "https://raw.githubusercontent.com/PresencePG/grip-client/a8e8ce832ae946ce698a1cb700e2d8d481a60f72/src/css/zeplin/DataManagement/img/sidebar.svg?token=AHAIV2ALO2EKQJNWKC52MFDAMIQ3C"
         imageWidth: 200
         imageHeight: 130
         imageTitle: my image
