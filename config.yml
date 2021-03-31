@@ -1,7 +1,7 @@
 baseURL: https://gripweb.netlify.app/
 languageCode: en-us
 title: Grip
-paginate: 5
+paginate: 10
 theme: PaperMod
 
 enableRobotsTXT: true
@@ -19,14 +19,13 @@ params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     title: Grip Website
     description: "ExampleSite description"
-    author: Me
     # author: ["Me", "You"] # multiple authors
     images: ["<link or path of image for opengraph, twitter-cards>"]
 
     defaultTheme: auto # dark, light
     disableThemeToggle: false
 
-    ShowReadingTime: true
+    ShowReadingTime: false
     ShowShareButtons: false
     disableSpecial1stPost: true
     comments: false
@@ -93,6 +92,14 @@ menu:
           name: Getting Started Guide
           url: /getting-started-guide/
           weight: 10
+        - identifier: Use Cases
+          name: Use Cases
+          url: /use-cases/
+          weight: 50
+        - identifier: Paublications
+          name: Publications
+          url: /publications/
+          weight: 40
         - identifier: Team
           name: Team
           url: /team/
@@ -101,11 +108,3 @@ menu:
           name: Contact
           url: /contact/
           weight: 30
-        - identifier: Literature
-          name: Literature
-          url: /literature/
-          weight: 40
-        - identifier: Use Cases
-          name: Use Cases
-          url: /use-cases/
-          weight: 50
