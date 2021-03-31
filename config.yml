@@ -95,16 +95,16 @@ menu:
         - identifier: Use Cases
           name: Use Cases
           url: /use-cases/
-          weight: 50
-        - identifier: Paublications
+          weight: 20
+        - identifier: Publications
           name: Publications
           url: /publications/
-          weight: 40
+          weight: 30
         - identifier: Team
           name: Team
           url: /team/
-          weight: 20
+          weight: 40
         - identifier: Contact
           name: Contact
           url: /contact/
-          weight: 30
+          weight: 50
