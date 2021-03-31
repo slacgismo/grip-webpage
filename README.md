@@ -39,7 +39,7 @@ All the content changes should be happening in the content folder
     3- Upload the pdf of the publication to the GRIP-portal/papers folder in the SharedDrive (Do the same thing with personal drive if not a part of GISMo team)
     4- Update the sharing options to "Anyone with the link" and make sure they are only a viewer
     5.1 - Copy only the ID (the 25 character code) from the sharable link - which is between "https://drive.google.com/file/d/" and "/view?usp=sharing"
-    5.2 - Paste it at the end of this link - "http://drive.google.com/uc?export=view&id=" and replace it with the existing URL in the src field
+    5.2 - Paste it at the end of this link - "https://drive.google.com/uc?export=view&id=" and replace it with the existing URL in the src field
 
 ### Adding a new team member
 
