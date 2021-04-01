@@ -36,7 +36,7 @@ params:
     assets:
         # disableHLJS: true # to disable highlight.js
         # disableFingerprinting: true
-        favicon: "<link / abs url>"
+        favicon: "http://drive.google.com/uc?export=view&id=1AAQQvjCWqY0XMdCdFCPPAAqrwNMw_-Jm"
         favicon16x16: "<link / abs url>"
         favicon32x32: "<link / abs url>"
         apple_touch_icon: "<link / abs url>"
