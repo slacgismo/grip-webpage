@@ -52,6 +52,10 @@ All the content changes should be happening in the content folder
     2- Use an existing use case as example. (the first 4 lines are required)
     3- Update the title on line 2 and start writing markdown for the remainder of the file
 
+### Changing the home page content
+
+    Update the subtitle under profile-mode in config.yml. (this requires rerunning the 'hugo server' command for local testing)
+
 #### To modify existing use-cases update the markdown within any use-case file
 
 ### Modifying the Getting Started Guide
