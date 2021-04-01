@@ -34,8 +34,8 @@ All the content changes should be happening in the content folder
 
 ### Adding a new publication
 
-    1- Create a new file (name does not matter) with .html extension inside /content/publications
-    2- Copy and paste the contents of any other publication file and update the title field on line 2
+    1- Navigate to the desired section under /content/publications
+    2- Create a new "<li></li>" the same way as what already exists
     3- Upload the pdf of the publication to the GRIP-portal/papers folder in the SharedDrive (Do the same thing with personal drive if not a part of GISMo team)
     4- Update the sharing options to "Anyone with the link" and make sure they are only a viewer
     5.1 - Copy only the ID (the 25 character code) from the sharable link - which is between "https://drive.google.com/file/d/" and "/view?usp=sharing"
