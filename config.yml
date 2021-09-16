@@ -93,13 +93,13 @@ menu:
           name: Use Cases
           url: /use-cases/
           weight: 20
-        - identifier: Publications
-          name: Publications
-          url: /publications/
-          weight: 30
         - identifier: Deployment
           name: Deployment
           url: /deployment/
+          weight: 30
+        - identifier: Publications
+          name: Publications
+          url: /publications/
           weight: 40
         - identifier: Team
           name: Team
