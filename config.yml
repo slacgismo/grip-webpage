@@ -97,15 +97,19 @@ menu:
           name: Deployment
           url: /deployment/
           weight: 30
+        - identifier: Analytics
+          name: Analytics
+          url: /analytics/
+          weight: 40
         - identifier: Publications
           name: Publications
           url: /publications/
-          weight: 40
+          weight: 50
         - identifier: Team
           name: Team
           url: /team/
-          weight: 50
+          weight: 60
         - identifier: Contact
           name: Contact
           url: /contact/
-          weight: 60
+          weight: 70
