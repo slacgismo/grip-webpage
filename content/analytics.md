@@ -2,8 +2,6 @@
 title: "Analytics"
 draft: false
 ---
-<<<<<<< Updated upstream
-=======
 
 **Anticipation**  
 
@@ -71,7 +69,6 @@ However, NILMTK alternatives have been used and model results are represented be
 **Figure 2**
 
 *Disaggregation is potentially feasible using this model*
-
 
 
 **Anticipation Solar Disaggregation Model**
@@ -331,9 +328,6 @@ The output of the optimization is a time-series of setpoint values and the resul
 ![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/AB_FIGURE_2_6OPTIMAL_OUTPUT_ICE.png)
 **Figure 5**
 
-
-
-
 **Recovery**
 
 The Extremum Seeking approach has been tested in hardware in the loop experiments and in live field tests. The LBNL team performed multiple validation simulations using the GRIP platform. The LBNL team used the IEEE 37 node test feeder for the simulated distribution network. A multitude of varying objective and control configurations were tested. Simulations show that ES control of distributed resources is a viable method for minimization voltage difference between adjacent and connected buses, or disconnected buses. *The GRIP platform allows easy simulation setup and execution.*
@@ -349,7 +343,6 @@ Demonstrated below (*figure 6*) is a simulation that was performed using the GRI
 
 
 Single phase four quadrant inverters were placed at the following phases and buses: 703-A, 703-B, 703-C, 733-A, 733-B, 733-C (see figure 2). Each inverter was managed by an 2D-ES controller (2D-ESC) with both active power and reactive power probes. All 2D-ESCs utilized a sinusoidal probe for both their active and reactive power probes, all with a unique frequency on the order of 0.1 Hz, for both its active power and reactive power probe. All 2D-ESCs had a constraint on the magnitude of inverter active power of 100 kW, a constraint on the magnitude of inverter reactive power of 100 kVAr, and a constraint on inverter apparent power of 100 kVA. All ESCs had an active power probe magnitude of 10 kW, and a reactive power probe magnitude of 10 kVAr.
-
 
 
 ![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/REC_FIGURE_3_FINAL_REPORT.png)
@@ -390,4 +383,3 @@ Figure 8 shows the phase a voltage magnitude difference between bus 709 and 708,
 **Figure 12**
 
 *Figure 12* shown above plots the active and reactive power contributions of the inverter on phase a at bus 733. This figure shows that the ESC was limited by its maximum apparent power constraint.
->>>>>>> Stashed changes
