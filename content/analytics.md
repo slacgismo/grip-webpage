@@ -150,7 +150,6 @@ shown below in *figure 3*. This suggests that there are at least four
 daily consumption patterns that are distinct to be considered market segments
 
 
-
 ![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/ANT_FIGURE_METER_AMI_DEL6_3.png)
 ##### **Figure 3**: *AMI Meter Clustering*
 
@@ -291,6 +290,7 @@ Members of the LBNL team in employed 2D-ES control for managing active and react
 
 The following are the constraints used in the VIIP model.
 
+
 ![Absorbance constraints equations](/AB_CONSTRAINTS_EQUATIONS.png)
  Equation 2.7  ensures that power supply and demand balance.
 
@@ -330,6 +330,7 @@ Equations 2.19 and 2.20 calculate the battery energy state of one time step, dep
 
 The following are the constraints used in the IMO model.
 
+
 ![Absorbance constraints equations](/AB_CONSTRAINTS_EQUATIONS_PART_2.png)
 
 Equation 2.30  ensures that power supply and demand balance over the entire time horizon. Equations 2.31 limit power the output for the solar and non-solar generators.
@@ -338,8 +339,10 @@ Equation 2.33 limits batteries power to be within limits and Equation 2.34 limit
 
 The output of the optimization is a time-series of setpoint values and the resulting state of-charge of the batteries and virtual battery over the entire time horizon of 24-hours. The figures below shows this output for the optimization of the initial time step of the simulation for both the "fire" represented by *Figure 4* and "ice" represented by *Figure 5* test cases.
 
+
 ![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/AB_FIGURE2_6OPTIMAL_OUTPUT_FIRE.png)
 ##### **Figure 4** *Fire Output*
+
 
 ![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/AB_FIGURE_2_6OPTIMAL_OUTPUT_ICE.png)
 ##### **Figure 5** *Ice Output*
@@ -348,8 +351,7 @@ The output of the optimization is a time-series of setpoint values and the resul
 
 The Extremum Seeking approach has been tested in hardware in the loop experiments and in live field tests. The LBNL team performed multiple validation simulations using the GRIP platform. The LBNL team used the IEEE 37 node test feeder for the simulated distribution network. A multitude of varying objective and control configurations were tested. Simulations show that ES control of distributed resources is a viable method for minimization voltage difference between adjacent and connected buses, or disconnected buses. *The GRIP platform allows easy simulation setup and execution.*
 
-*Figure 1* below shows a block diagram of the overall ES architecture for multiple 2D-ES controllers managing active and reactive power contributions of distributed energy resources (DERs). In this use case, the objective represents a distribution network, measurements of pertinent system states, and computation of a value that the 2D-ES controllers operate to minimize. A single 2D-ES controller is encircled by the red box, with its active power channel is encircled by the green box, and its reactive power channel is encircled by the blue box. In the figure below, LPF stands for lowpass filter, HPF stands for high pass filter, and INT denotes the integrator
-
+*Figure 1* below shows a block diagram of the overall ES architecture for multiple 2D-ES controllers managing active and reactive power contributions of distributed energy resources (DERs). In this use case, the objective represents a distribution network, measurements of pertinent system states, and computation of a value that the 2D-ES controllers operate to minimize. A single 2D-ES controller is encircled by the red box, with its active power channel is encircled by the green box, and its reactive power channel is encircled by the blue box. In the figure below, LPF stands for lowpass filter, HPF stands for high pass filter, and INT denotes the integrator.
 
 
 ![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/REC_FIGURE_ES.png)
@@ -360,37 +362,32 @@ The Extremum Seeking approach has been tested in hardware in the loop experiment
 Demonstrated below (*figure 6*) is a simulation that was performed using the GRIP platform. The simulated network was the IEEE 37 node test feeder, and GridLab-D was used to solve power flow.
 
 
-
 ![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/REC_FIGURE_2_FINAL_REPORT.png)
-##### **Figure 6** *Figure 6* above illustrates the topology of the IEEE 37 node test feeder. The objective of the simulation was to minimize the total voltage phasor difference between bus 709 and bus 708 (which were connected during the experiment).
+##### **Figure 6**  illustrates the topology of the IEEE 37 node test feeder. The objective of the simulation was to minimize the total voltage phasor difference between bus 709 and bus 708 (which were connected during the experiment).
 
 
 Single phase four quadrant inverters were placed at the following phases and buses: 703-A, 703-B, 703-C, 733-A, 733-B, 733-C (see figure 2). Each inverter was managed by an 2D-ES controller (2D-ESC) with both active power and reactive power probes. All 2D-ESCs utilized a sinusoidal probe for both their active and reactive power probes, all with a unique frequency on the order of 0.1 Hz, for both its active power and reactive power probe. All 2D-ESCs had a constraint on the magnitude of inverter active power of 100 kW, a constraint on the magnitude of inverter reactive power of 100 kVAr, and a constraint on inverter apparent power of 100 kVA. All ESCs had an active power probe magnitude of 10 kW, and a reactive power probe magnitude of 10 kVAr.
 
 
 ![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/REC_FIGURE_3_FINAL_REPORT.png)
-##### **Figure 7** The above *figure 7* represents the objective function, defined above, over the course of the 10 minute simulation. The objective function is reduced from a value of roughly 210 to roughly 50.
-
+##### **Figure 7** represents the objective function, defined above, over the course of the 10 minute simulation. The objective function is reduced from a value of roughly 210 to roughly 50.
 
 
 ![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/REC_FIGURE_4_FINAL_REPORT.png)
-##### **Figure 8** Figure 8 shows the phase a voltage magnitude difference between bus 709 and 708, and the phase a voltage angle difference between bus 709 and 708. The figure demonstrates that the voltage magnitude difference is reduced, as is the voltage angle difference.
-
+##### **Figure 8** shows the phase a voltage magnitude difference between bus 709 and 708, and the phase a voltage angle difference between bus 709 and 708. The figure demonstrates that the voltage magnitude difference is reduced, as is the voltage angle difference.
 
 
 ![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/REC_FIGURE_5_FINAL_REPORT.png)
-##### **Figure 9** *Figure 9* shows the phase b voltage magnitude difference between bus 709 and 708, and the phase b voltage angle difference between bus 709 and 708. The figure demonstrates that the voltage magnitude difference is reduced, as is the voltage angle difference.
-
+##### **Figure 9** shows the phase b voltage magnitude difference between bus 709 and 708, and the phase b voltage angle difference between bus 709 and 708. The figure demonstrates that the voltage magnitude difference is reduced, as is the voltage angle difference.
 
 
 ![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/REC_FIGURE_6_FINAL_REPORT.png)
-##### **Figure 10** *Figure 10* plots the phase c voltage magnitude difference between bus 709 and 708, and the phase c voltage angle difference between bus 709 and 708. The figure demonstrates that the voltage magnitude difference is reduced, as is the voltage angle difference.
+##### **Figure 10** plots the phase c voltage magnitude difference between bus 709 and 708, and the phase c voltage angle difference between bus 709 and 708. The figure demonstrates that the voltage magnitude difference is reduced, as is the voltage angle difference.
 
 
 ![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/REC_FIGURE_7_FINAL_REPORT.png)
-##### **Figure 11** *Figure 11* plots the active and reactive power contributions of the inverter on phase a at bus 703. This figure shows the ESC was limited by its maximum apparent power constraint.
-
+##### **Figure 11** plots the active and reactive power contributions of the inverter on phase a at bus 703. This figure shows the ESC was limited by its maximum apparent power constraint.
 
 
 ![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/REC_FIGURE_8_FINAL_REPORT.png)
-##### **Figure 12** *Figure 12* shown above plots the active and reactive power contributions of the inverter on phase a at bus 733. This figure shows that the ESC was limited by its maximum apparent power constraint.
+##### **Figure 12** shown above plots the active and reactive power contributions of the inverter on phase a at bus 733. This figure shows that the ESC was limited by its maximum apparent power constraint.
