@@ -68,15 +68,23 @@ are very inaccurate.
 
 *Disaggregation is potentially feasible using this model*
 
+### Table of contents for Anticipation Models and Model Outputs
+1. [Anticipation Solar Disaggregation Model](#disaggregation)
+2. [Disaggregation Model Input Steps](#inputsteps)
+3. [Outputs of Disaggregation Model](#outputs)
+4. [Solar Disaggregation Utility Application](#utility)
+5. [Solar Disaggregation Utility Application Outputs](#utilityouputs)
 
-#### **Anticipation Solar Disaggregation Model**
+
+
+#### **1. Anticipation Solar Disaggregation Model**
 
 Solar Disaggregation model CSSS integrated in to OMF code
 base. (CSSS = Contextually Supervised Source Separation).
 CSSS gives utilities the ability to detect solar installations on their
 systems that were not disclosed to the utility
 
-*Steps of Model Inputs:*
+*2. Steps of Model Inputs:*
 
 1.  User uploads 3 .csv files, enters a start date, and selects
 an ASOS station
@@ -85,13 +93,8 @@ an ASOS station
 4. Latitude/Longitude coordinates for each house and solar
 proxy (ASOS station-based on the nearest city)
 
-#### Table of contents for Model Outputs
-1. [Introduction](#introduction)
-2. [Some paragraph](#paragraph1)
-    1. [Sub paragraph](#subparagraph1)
-3. [Another paragraph](#paragraph2)
 
-**Model outputs:**
+*3. Model outputs:*
 
 ●  Temperature data points from ASOS station and
 temperature interpolated to 15 minute intervals for CSSS
@@ -104,19 +107,22 @@ estimated actual load from CSSS disaggregation
 ●  Leaflet.js map with marker clusters for each net load
 source, solar proxy, and ASOS station
 
-#### **Anticipation Solar Disaggregation Utility Application**
+#### **4. Anticipation Solar Disaggregation Utility Application**
 
 CSSS is the disaggregation of a time series of source signals from
 observations of their sum. CSSS gives utilities the ability to detect solar installations
 on their systems that were not disclosed to the utility.
 
-*Model outputs:*
+*5. Model outputs:*
 
 ●  Temperature data points from ASOS station and temperature
 interpolated to 15 minute intervals for CSSS
+
 ●  Line graph of solar proxy load input
+
 ●  Line graph of each net load, with hidden solar and estimated actual
 load from CSSS disaggregation
+
 ●  Leaflet.js map with marker clusters for each net load source, solar
 proxy, and ASOS station
 
