@@ -348,6 +348,15 @@ The output of the optimization is a time-series of setpoint values and the resul
 
 The Extremum Seeking approach has been tested in hardware in the loop experiments and in live field tests. The LBNL team performed multiple validation simulations using the GRIP platform. The LBNL team used the IEEE 37 node test feeder for the simulated distribution network. A multitude of varying objective and control configurations were tested. Simulations show that ES control of distributed resources is a viable method for minimization voltage difference between adjacent and connected buses, or disconnected buses. *The GRIP platform allows easy simulation setup and execution.*
 
+*Figure 1* below shows a block diagram of the overall ES architecture for multiple 2D-ES controllers managing active and reactive power contributions of distributed energy resources (DERs). In this use case, the objective represents a distribution network, measurements of pertinent system states, and computation of a value that the 2D-ES controllers operate to minimize. A single 2D-ES controller is encircled by the red box, with its active power channel is encircled by the green box, and its reactive power channel is encircled by the blue box. In the figure below, LPF stands for lowpass filter, HPF stands for high pass filter, and INT denotes the integrator
+
+
+
+![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/REC_FIGURE_ES.png)
+
+#### **Figure 1**:*Two dimensional Extremum Seeking Control (2D-ES) loop for simultaneous control of DER active and reactive power.*
+
+
 Demonstrated below (*figure 6*) is a simulation that was performed using the GRIP platform. The simulated network was the IEEE 37 node test feeder, and GridLab-D was used to solve power flow.
 
 
