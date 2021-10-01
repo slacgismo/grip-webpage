@@ -153,6 +153,61 @@ daily consumption patterns that are distinct to be considered market segments
 ![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/ANT_FIGURE_METER_AMI_DEL6_3.png)
 ##### **Figure 3**: *AMI Meter Clustering*
 
+#### **Anticipate-Microgrid Design Tool-Pole Model**
+
+##### *Goal:* Due to  the ability of a load to shape over a 1yr time period determine what combination of solar, wind, and batteries increases resiliency and minimizes cost.
+
+##### **Methods:**
+
+ The basic method of evaluating the condition of a pole relative to ground-line structural failure is to calculate the resisting moment at ground level and compare that with the total moment from the loads present.  
+
+The resisting moment for a wood pole at the ground line is computed as:
+
+![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/ANT_USECASE.png)
+
+![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/ANT_USECASE_TABLE_1.png)
+**Table 1**: NESC Table 261-1A Safety Factors
+
+
+![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/ANT_USECASE_TABLE_2.png)
+**Table 2**: Ultimate Fiber Stress of Selected Wood Products
+
+
+Pole degradation is modeled by computing the rate at which the interior is hollowed out by rot. The hollow interior diameter grows at the rate R such that the interior hollow diameter is given by DR = 2 Y R, (where Y is the age of the pole). When considering pole degradation, the resisting moment is  
+
+![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/ANT_USECASE_EQUATION.png)
+
+*Note*: Ground line failure assumption ignores the possibility that the hollow interior diameter may lead to failure at the midpoint of the pole or at the pole top near the superstructure.
+
+
+#### **Pole Loading Due to Pole Tilt Angle**
+
+A tilted pole is represented below, where *H*, *D0*, and *D1* are measured in ft, and M is measured in ft.lb.
+
+![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/ANT_USECASE_POLE_LOADING.png)
+
+For small angles , the moment resulting from the tilt of a pole of uniform diameter D and height H is
+
+![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/ANT_USECASE_EQUATION_2.png)
+m is the mass of the pole in lbs. The mass m of the pole can be calculated using the density of the material, where
+
+![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/ANT_USECASE_EQUATION_3.png)
+
+The taper of the pole must be considered, in which case the moment is
+![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/ANT_USECASE_EQUATION_4.png)
+where m(h) dh is the mass at the height h, such that
+![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/ANT_USECASE_EQUATION_5.png)
+with r(h)=0.5 [D0-(D0-D1) h/H] measured in ft. The resulting moment is
+![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/ANT_USECASE_EQUATION_6.png)
+
+#### **Mounted equipment loading due to pole tilt**
+
+Equipment mounted on a tilted pole may induce small changes in the moment depending on the position relative to the pole's centerline and the tilt direction.  The moment of equipment mounted offset from the pole's centerline is:
+![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/ANT_USECASE_EQUATION_7.png)
+where W is the weight of the equipment in lbs and X is the offset distance in ft.  When the pole is tilted at an angle  and the equipment is mounted direction =E-T relative to the pole tilt direction, then the moment is
+![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/ANT_USECASE_EQUATION_8.png)
+
+
 #### **Anticipate DER Analytics**
 
 ● Automated screening process to assess
