@@ -14,7 +14,7 @@ draft: false
 7. [Anticipate-Microgrid Design Tool-Pole Model](#microgrid)
 8. [Pole Loading Due to Pole Tilt Angle](#poleloading)
 9. [Mounted equipment loading due to pole tilt](#poletilt)
-10. [10. Anticipate DER Analytics](#der)
+10. [Anticipate DER Analytics](#der)
 11. [Anticipate Outage Cost Analysis](#outage)
 12. [Anticipate- Smart Switching](#smart)
 13. [Vegetation Impact Analysis](#vegetation)
