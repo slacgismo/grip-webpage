@@ -3,7 +3,40 @@ title: "Analytics"
 draft: false
 ---
 
-### Anticipation  
+### Table of contents for Anticipation, Absorption, and Recovery Models and Model Outputs
+*[Anticipation]*
+1. [Anticipation Solar Disaggregation Model](#disaggregation)
+2. [Disaggregation Model Input Steps](#inputsteps)
+3. [Outputs of Disaggregation Model](#outputs)
+4. [Solar Disaggregation Utility Application](#utility)
+5. [Solar Disaggregation Utility Application Outputs](#utilityouputs)
+6. [Anticipate AMI DATA Meter Clustering](#ami)
+7. [Anticipate-Microgrid Design Tool-Pole Model](#microgrid)
+8. [Pole Loading Due to Pole Tilt Angle](#poleloading)
+9. [Mounted equipment loading due to pole tilt](#poletilt)
+10. [Anticipate DER Analytics](#der)
+11. [Anticipate Outage Cost Analysis](#outage)
+12. [Anticipate- Smart Switching](#smart)
+13. [Vegetation Impact Analysis](#vegetation)
+14. [Vegetation Fall](#fall)
+
+*[Absorption]*
+1. [GRIP Absorption/virtual islanding](#islanding)
+2. [GRIP Absorption/virtual islanding constraints](#constraints)
+3. [Identifying Loops](#loops)
+4. [GRIP Absorption/island management algorithm](#islandmanagement)
+5. [GRIP Absorption/island management algorithm constraints](#utilityouputs)
+
+[Recovery]
+1. [Recovery Simulations](#recovery)
+
+
+
+
+
+
+
+## Anticipation  
 
 *Anticipate Load Disaggregation Model*
 
@@ -14,32 +47,32 @@ draft: false
 #### **Methods Used**:
 ##### open-source tool (NILMTK) and the REDD data set from MIT to train models for disaggregation prediction and validate performance given known labels
 
-#### *Functional Capabilities of the model*              
+### *Functional Capabilities of the model*              
 
-● Breaks down provided power consumption                 
+-Breaks down provided power consumption                 
 data from a given meter into the constituent
 appliances.
 
-● Uses training data to make accurate
+-Uses training data to make accurate
 predictions and returns overall
 appliance level disaggregation and a
 disaggregation over time.
 
 
-● Users can use provided sample training and
+-Users can use provided sample training and
 test data or upload their own as CSV files
 
-● Utilizes the open source NILM toolkit for a
+-Utilizes the open source NILM toolkit for a
 bulk of the data analysis processing
 
-● Can inform consumers who are
+-Can inform consumers who are
 using a ton of energy about
 their consumption patterns.
 
-● Can lead to better load models for
+-Can lead to better load models for
 distribution planning
 
-#### *Load Disaggregation Mechanism*
+### *Load Disaggregation Mechanism*
 
 1.  Gridlab-D is used to simulate loads
 and meter data for a single household
@@ -68,16 +101,10 @@ are very inaccurate.
 
 *Disaggregation is potentially feasible using this model*
 
-### Table of contents for Anticipation Models and Model Outputs
-1. [Anticipation Solar Disaggregation Model](#disaggregation)
-2. [Disaggregation Model Input Steps](#inputsteps)
-3. [Outputs of Disaggregation Model](#outputs)
-4. [Solar Disaggregation Utility Application](#utility)
-5. [Solar Disaggregation Utility Application Outputs](#utilityouputs)
 
 
 
-#### **1. Anticipation Solar Disaggregation Model**
+### **1. Anticipation Solar Disaggregation Model**
 
 Solar Disaggregation model CSSS integrated in to OMF code
 base. (CSSS = Contextually Supervised Source Separation).
@@ -96,18 +123,18 @@ proxy (ASOS station-based on the nearest city)
 
 *3. Model outputs:*
 
-●  Temperature data points from ASOS station and
+-Temperature data points from ASOS station and
 temperature interpolated to 15 minute intervals for CSSS
 
-●  Line graph of solar proxy load input
+-Line graph of solar proxy load input
 
-●  Line graph of each net load, with hidden solar and
+-Line graph of each net load, with hidden solar and
 estimated actual load from CSSS disaggregation
 
-●  Leaflet.js map with marker clusters for each net load
+-Leaflet.js map with marker clusters for each net load
 source, solar proxy, and ASOS station
 
-#### **4. Anticipation Solar Disaggregation Utility Application**
+### **4. Anticipation Solar Disaggregation Utility Application**
 
 CSSS is the disaggregation of a time series of source signals from
 observations of their sum. CSSS gives utilities the ability to detect solar installations
@@ -115,37 +142,37 @@ on their systems that were not disclosed to the utility.
 
 *5. Model outputs:*
 
-●  Temperature data points from ASOS station and temperature
+-Temperature data points from ASOS station and temperature
 interpolated to 15 minute intervals for CSSS
 
-●  Line graph of solar proxy load input
+-Line graph of solar proxy load input
 
-●  Line graph of each net load, with hidden solar and estimated actual
+-Line graph of each net load, with hidden solar and estimated actual
 load from CSSS disaggregation
 
-●  Leaflet.js map with marker clusters for each net load source, solar
+-Leaflet.js map with marker clusters for each net load source, solar
 proxy, and ASOS station
 
-#### **Anticipate AMI DATA Meter Clustering**
+### **6. Anticipate AMI DATA Meter Clustering**
 
 The goal meter data clustering is to
 quantitatively identify relative kWh consumption
 patterns that are shared by subsets of utility
 customers.
 
-● The K-means clustering algorithm is used to
+-The K-means clustering algorithm is used to
 group meters together based on how their
 relative consumption varies during the day.
 
-● By identifying kWh consumption patterns, we
+-By identifying kWh consumption patterns, we
 can help utilities perform market segmentation to
 optimize how they serve customers.
 
-● The initial investigation shows that we can
+-The initial investigation shows that we can
 qualitatively identify meaningful, distinct
 consumption patterns.
 
-● The result of fitting four clusters to the data is
+-The result of fitting four clusters to the data is
 shown below in *figure 3*. This suggests that there are at least four
 daily consumption patterns that are distinct to be considered market segments
 
@@ -153,7 +180,7 @@ daily consumption patterns that are distinct to be considered market segments
 ![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/ANT_FIGURE_METER_AMI_DEL6_3.png)
 ##### **Figure 3**: *AMI Meter Clustering*
 
-#### **Anticipate-Microgrid Design Tool-Pole Model**
+### **7. Anticipate-Microgrid Design Tool-Pole Model**
 
 ##### *Goal:* Due to  the ability of a load to shape over a 1yr time period determine what combination of solar, wind, and batteries increases resiliency and minimizes cost.
 
@@ -163,7 +190,7 @@ daily consumption patterns that are distinct to be considered market segments
 
 The resisting moment for a wood pole at the ground line is computed as:
 
-![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/ANT_USECASE.png)
+![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/IMG_1.png)
 
 ![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/ANT_USECASE_TABLE_1.png)
 **Table 1**: NESC Table 261-1A Safety Factors
@@ -173,104 +200,106 @@ The resisting moment for a wood pole at the ground line is computed as:
 **Table 2**: Ultimate Fiber Stress of Selected Wood Products
 
 
-Pole degradation is modeled by computing the rate at which the interior is hollowed out by rot. The hollow interior diameter grows at the rate R such that the interior hollow diameter is given by DR = 2 Y R, (where Y is the age of the pole). When considering pole degradation, the resisting moment is  
+Pole degradation is modeled by computing the rate at which the interior is hollowed out by rot. The hollow interior diameter grows at the rate R such that the interior hollow diameter is given by ![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/IMG_2.png), (where Y is the age of the pole). When considering pole degradation, the resisting moment is  
 
-![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/ANT_USECASE_EQUATION.png)
+![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/IMG_3.png)
 
 *Note*: Ground line failure assumption ignores the possibility that the hollow interior diameter may lead to failure at the midpoint of the pole or at the pole top near the superstructure.
 
 
-#### **Pole Loading Due to Pole Tilt Angle**
+### **8. Pole Loading Due to Pole Tilt Angle**
 
-A tilted pole is represented below, where *H*, *D0*, and *D1* are measured in ft, and M is measured in ft.lb.
+A tilted pole is represented below, where ![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/IMG_4.png) are measured in ft, and M is measured in ft.lb.
 
 ![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/ANT_USECASE_POLE_LOADING.png)
 
 For small angles , the moment resulting from the tilt of a pole of uniform diameter D and height H is
 
-![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/ANT_USECASE_EQUATION_2.png)
+![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/IMG_5.png)
 m is the mass of the pole in lbs. The mass m of the pole can be calculated using the density of the material, where
 
-![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/ANT_USECASE_EQUATION_3.png)
+![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/IMG_6.png)
 
 The taper of the pole must be considered, in which case the moment is
-![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/ANT_USECASE_EQUATION_4.png)
+![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/IMG_7.png)
 where m(h) dh is the mass at the height h, such that
-![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/ANT_USECASE_EQUATION_5.png)
-with r(h)=0.5 [D0-(D0-D1) h/H] measured in ft. The resulting moment is
-![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/ANT_USECASE_EQUATION_6.png)
+![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/IMG_8.png)
+with r(h)=0.5 ![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/IMG_9.png) measured in ft. The resulting moment is
 
-#### **Mounted equipment loading due to pole tilt**
+![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/IMG_MT_1.png)
+![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/IMG_MT_2.png)
+
+### **9. Mounted equipment loading due to pole tilt**
 
 Equipment mounted on a tilted pole may induce small changes in the moment depending on the position relative to the pole's centerline and the tilt direction.  The moment of equipment mounted offset from the pole's centerline is:
-![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/ANT_USECASE_EQUATION_7.png)
+![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/IMG_10.png)
 where W is the weight of the equipment in lbs and X is the offset distance in ft.  When the pole is tilted at an angle  and the equipment is mounted direction =E-T relative to the pole tilt direction, then the moment is
-![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/ANT_USECASE_EQUATION_8.png)
+![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/IMG_11.png)
 
 
-#### **Anticipate DER Analytics**
+### **10. Anticipate DER Analytics**
 
-● Automated screening process to assess
+-Automated screening process to assess
 impacts of DERs on resilience/reliability
 of arbitrary distribution circuits.
 
-● Visualizations for load flow analysis
+-Visualizations for load flow analysis
 
-● Supplementary sortable tables for flicker,
+-Supplementary sortable tables for flicker,
 reverse power flow, thermal, short circuit,
 and fault current violations
 
-● Allows distribution engineers to
+-Allows distribution engineers to
 discover problems with the DER without
 expending resources in manual
 interconnection modeling (multiple
 power flows and circuit changes
 calculated automatically).
 
-#### **Anticipate Outage Cost Analysis**
+### **11. Anticipate Outage Cost Analysis**
 
 
 
 *Objectives*
 
-●  Visualize outage data over the
+-Visualize outage data over the
 period of a year (with filtering
 based on duration, date the
 outage occurred, meters
 affected, and cause of the
 outage)
 
-●  Calculate the reliability metrics
+-Calculate the reliability metrics
 associated with the outage
 data and a feeder system
 specified by an .omd file
 
-●  Generate a new set of
+-Generate a new set of
 outages and calculate the
 reliability metrics and graph
 this new data (with filtering as
 well)
 
-#### **Methods implemented:**
+ **Methods implemented:**
 
-●  Leaflet (geoJSON format).
-●  Lattice heat map (for outage
+-Leaflet (geoJSON format).
+-Lattice heat map (for outage
 location generation)
-●  Scipy distributions (for outage
+-Scipy distributions (for outage
 duration generation)
 
 *Test data Used*
 
-●  Olin Barre Fault
+1. Olin Barre Fault
 
-●  ieee37nodeFaultTester
+2. ieee37nodeFaultTester
 
-●  Data generation and visualization methods
+-Data generation and visualization methods
 can be used to help utilities predict the
 distribution of future faults and associated
 reliability metrics.
 
-●  The variety of different fault generation
+-The variety of different fault generation
 methods that can be employed give
 utilities the freedom to fine-tune
 parameters based on expected
@@ -279,11 +308,11 @@ cause, fault type, start time, and duration)
 that become inputs to other resilience
 models.
 
-●  Core XAIXI calculations are useful for
+-Core XAIXI calculations are useful for
 validation of other models that impact
 these metrics.
 
-#### **Anticipate- Smart Switching**
+### **12. Anticipate- Smart Switching**
 
 *Objective:*
 
@@ -303,13 +332,13 @@ sustained outage).
 
 *Tools used:*
 
-●  GridLab-D.
+1. GridLab-D.
 
-●  Random fault generator.
+2. Random fault generator.
 
-●  Reliability metrics object.
+3. Reliability metrics object.
 
-●  Plot.ly for graphing.
+4. Plot.ly for graphing.
 
 *Test data Used:*
 
@@ -324,24 +353,83 @@ times with the same input data, in order to take
 account the potential variance of outages in a
 given year.
 
+### **13. Vegetation Impact Analysis**
+
+Grid resilience is affected in part by vegetation contacting or falling onto power lines during significant weather events. GridLAB-D can model the probability of vegetation events through the use of simplified models that can scale easily based on the pole vulnerability method implemented for wind analysis in the DOE Grid Resilience Intelligence Platform (GRIP).
+
+
+The impact of vegetation on power lines arises from two types of wind-driven events:
+
+*1. vegetation contact with lines*(which results in a fault)
+
+*2. vegetation fall onto lines* (which results in an outage)
+
+ In GridLAB-D, a fault results in a momentary loss of service (momentary is defined according to *IEEE Standard 1366*, which lasts less than 5 minutes. An outage however, is a non-momentary loss of service (lasting 5 or more minutes).
+
+ Vegetation may contact when it has grown into the right of way enough to contact an uninsulated power line when the wind blows hard enough to cause both to deflect sufficiently. The following factors below must be considered:
+1. Wind speed, V (ft/s)
+
+2. Right-of-way distance, D (ft)
+
+3. Vegetation growth rate, R (ft/y)
+
+4. Elapsed time since right-of-way was maintained, ∆t (y)
+
+5. Vegetation susceptibility as wind speed increases, S (s)
+
+6. Line length, L (ft)
+
+Vegetation contact with the lines is possible given deflection in both sagging lines and susceptible vegetation. When the sum of the two deflections exceeds the open space between the vegetation and lines, then momentary contact becomes probable. The deflection of sagging power lines as a function of wind speed, line length, and air temperature is
+
+![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/VEG_CONTACT_1.png)
+
+ where y is the observed line sag at the midpoint between the poles, w is the line weight in N/m, and the perpendicular wind force in N/m is
+
+![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/VEG_CONTACT_2.png)
+
+ where d is the line diameter in meters, and the β is the line windage coefficient in s/m^2.
+ The deflection of vegetation as a function of susceptibility and wind speed is approximated as
+ ![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/VEG_CONTACT_3.png)
+
+ The open distance between the line and vegetation is approximated as:
+ ![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/VEG_CONTACT_4.png)
+
+ The probability of contact is determined by the ratio:
+
+![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/VEG_CONTACT_5.png)
+
+When the ratio *RC ≥ 1.0* then contact with an uninsulated power line is certain and will cause a momentary fault.
+
+### **14. Vegetation Fall**
+
+Vegetation may fall onto power lines when it has aged sufficiently and is stressed due to drought. Vegetation must have grown into the right-of-way so that the probability of fall is function of:
+
+![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/VEG_FALL_1.png)
+
+
+and the critical wind speed V:
+![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/VEG_FALL_2.png)
+
+where A is the age of the tree. The probability of a line outage from vegetation fall is then:
+
+![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/VEG_FALL_3.png)
 
 
 
 
 
-
-### **Absorption**   
+## **Absorption**   
 
 Members of the LBNL team in employed 2D-ES control for managing active and reactive power contributions of DER on a distribution network for minimizing voltage phasor difference across an open or closed switch. The LBNL team performed multiple validation simulations using the GRIP platform (allows for easy simulation setup and execution). The LBNL team used the IEEE 37 node test feeder for the simulated distribution network. A multitude of varying objective and control configurations were tested. Simulations show that ES control of distributed resources is a viable method for minimization voltage difference between adjacent and connected buses, or disconnected buses.
 
-#### **Objectives of GRIP Absorption/virtual islanding**
+### **1. Objectives of GRIP Absorption/virtual islanding**
 
 -minimize the value-weighted amount of unserved load
 -ensure that we maintain as much reserve as possible to account for future load increases.
 -maximize the batteries state of-charge at the final time step
--minimize the number of switching events and the total number of loads that are “on” for reserves accountin
+-minimize the number of switching events and the total number of loads that are “on” for reserves accounting
 
-#### **Constraints**
+### **2. Constraints**
 
 The following are the constraints used in the VIIP model.
 
@@ -364,7 +452,7 @@ Equations 2.19 and 2.20 calculate the battery energy state of one time step, dep
 
  Equation 2.21 ensures that after all switching operations are complete, the distribution network remains radial. Equation 2.22 ensures that R (the reserves variable) is less than or equal to the amount of surplus in the virtual island with the smallest amount of reserves. Equation 2.23 ensures that the binary state variables are indeed binary.
 
-#### **Identifying Loops**
+### **3. Identifying Loops**
 
 *Requirements for solving VIIP*
 
@@ -374,14 +462,14 @@ Equations 2.19 and 2.20 calculate the battery energy state of one time step, dep
 
  *Note*: If all of the nodes in Ni have been previously visited, quit (end point found). If there are only two nodes in V randomly select one of the nodes in Ni that are not in V , call this node i, add it to V and repeat. If there are more than two nodes in V and the only node in Ni that is not in V is s, then quit (loop of length three or more nodes has been found; repeat from step 1). If there are more than two nodes in V and s is not in Ni, then advanced to a randomly chosen node in Ni that is not in V and repeat this step.
 
-#### **Objectives of GRIP Absorption/island management algorithm**
+### **4. Objectives of GRIP Absorption/island management algorithm**
 
  -minimize the value-weighted amount of total unserved (shed) non-flexible energy.
  -ensure that we maintain as much battery energy at the end of the time horizon as possible
  -maximize the virtual battery energy at the end of the time horizon.
  -maximize the value-weighted level of customer comfort over the entire time horizon.
 
-#### **Constraints**
+### **5. Constraints**
 
 The following are the constraints used in the IMO model.
 
@@ -402,7 +490,70 @@ The output of the optimization is a time-series of setpoint values and the resul
 ![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/AB_FIGURE_2_6OPTIMAL_OUTPUT_ICE.png)
 ##### **Figure 5** *Ice Output*
 
-### **Recovery**
+
+### **Absorbance- FLISR**
+
+**Goal:**
+
+Quickly isolate a fault and restore power in a  
+distribution system by opening and closing switches  
+already present in the system.
+
+### **Methods implemented:**
+
+-Adjacency list representation of connectivity
+-Maximal connected subgraphs
+-Depth-first search
+-Test Data:Modified Oline Barre Fault (with 16 initially  
+open tie lines and 15 initially closed reclosers)
+
+ The FLISR algorithm provides  sub-second restoration for a system with ~3000 nodes, and a proof is provided that the solution is optimal for both radial and non-radial feeder systems.  
+
+*(The algorithm has the potential to drastically reduce the amount of time it takes to find an optimal solution and implement it in a faulted system).*
+
+![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/AB_FLISR_1.png)
+##### **Figure 6**: Beginning to solve a system with our algorithm
+
+![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/AB_FLISR_2.png)
+##### **Figure 7**: Continuing to find a solution
+
+
+### **Absorbance (ML) Forecasting**
+
+**Goal:**: provide open, free load forecasting methods  
+to utilities. Forecasts basis of many load control  
+and energy storage dispatch tasks, and these  
+tasks are critical in resilient design and restoration  
+activities.
+
+###  **Methods implemented:**
+
+-Artificial Neural Network
+
+-Rolling Time-series Regression (ARIMA)
+
+-Double Exponentially Smoothed ARIMA
+
+-Daily Peak Support Vector Regression
+
+-Test data: ERCOT North Region 2002–06
+
+In summary:
+**Strong results for all methods, neural network forecast had clearest day-ahead hourly MAPE success (2.58%)**
+
+![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/AB_FORECAST_1.png)
+##### **Figure 8**: representation of neural network plot and daily peak demand forecast
+
+A utility may decide to invest in batteries or a direct load control program to improve system resilience; however, these efforts are only as effective as the utility’s ability to predict the day’s energy consumption. Forecasting methods we developed were integrated in to a model giving statistical likelihood that tomorrow will be the monthly peak.
+
+![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/AB_FORECAST_2.png)
+##### **Figure 9**:Representation of testing on ERCOT data where the model could find a once-weekly dispatch strategy that would only miss the monthly peak every few years
+
+
+
+
+
+## **1. Recovery**
 
 The Extremum Seeking approach has been tested in hardware in the loop experiments and in live field tests. The LBNL team performed multiple validation simulations using the GRIP platform. The LBNL team used the IEEE 37 node test feeder for the simulated distribution network. A multitude of varying objective and control configurations were tested. Simulations show that ES control of distributed resources is a viable method for minimization voltage difference between adjacent and connected buses, or disconnected buses. *The GRIP platform allows easy simulation setup and execution.*
 
@@ -446,3 +597,110 @@ Single phase four quadrant inverters were placed at the following phases and bus
 
 ![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/REC_FIGURE_8_FINAL_REPORT.png)
 ##### **Figure 12** shown above plots the active and reactive power contributions of the inverter on phase a at bus 733. This figure shows that the ESC was limited by its maximum apparent power constraint.
+
+### **Recover Anomaly Loading**:
+
+**Goal:** detect equipment failure and/or non-technical losses from meter data streams.
+
+### **Methods implemented:**
+
+-Facebook Prophet
+-Daily Peak SVM T-Test
+-Local Outlier Factor (LOF)
+-Isolation Forests
+-Symbolic Approximation (SAX) - Sequitur
+
+**Test data:**
+
+1. ERCOT South Region 2002–05
+2. Synthetic data from GridLAB-D
+
+
+*Near perfect identification of theft and hardware failures when test/train split on same meter, however cross-training results are pending*
+
+![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/REC_ANOMALY_1.png)
+##### **Figure 13**
+
+### **Recovery Fast Anomaly**:
+
+**Goal:** 1. Detect equipment failure (residential, transformer) and non-tech losses from meter data; 2. implement methods with sub-hour train/test performance to enable realtime detection
+### **Methods:**
+
+-Local Outlier Factor (LOF)
+
+-Isolation Forests
+
+-Symbolic Approximation (SAX) - Sequitur
+
+-SVM
+
+Test Data:
+
+1. Tagged datasets from utilities uncommon
+
+2. Generated test data using 2 utility circuits and
+GridLAB-D
+
+![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/REC_ANOMALY_2.png)
+##### **Figure 14**
+
+
+### **Recovery Anomaly Fast Detection Validation**
+
+1. Detection methods are found to be reliable with 6 months of training data.
+
+2. Scores lower for cross-trained models(train on one meter, test on another)
+
+3. Future work will focus on cross-trained test case because this is the likely deployment method (single meter methods would only detect further issues on that 1 meter).
+
+4. Non-technical losses frequently confused with other anomalies, so we're redefining how this anomaly is defined
+
+![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/REC_ANOMALY_3.png)
+##### **Figure 15**: 6 month Olin Barre GH test case
+
+### **Recovery Network Structure Learning:**
+
+**Goal:** Find the likely connectivity of a feeder system, given the location information for each node and some voltage data
+
+### **Methods implemented:**
+
+-Prim’s Algorithm (find minimal spanning trees)
+
+-scikit-learn SVM model
+
+**Test data:**
+
+1. ieee37nodeFaultTester
+
+2. test_ieee123nodeBetter
+
+3. Taxonomy Feeders
+
+4. Distance data is obtained from the .omd file and
+voltage data from running GridLAB-D on the .glm
+
+![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/REC_ANOMALY_4.png)
+##### **Figure 16**
+
+*Connectivity can be approximated with very good accuracy for smaller feeder systems. Further work must be done in making sure the model is viable for any arbitrary system*
+
+### **Recovery Black Start**:
+
+**Goal:** Find a sequence of energizing generators and opening/closing switches that restores power in a transmission network and an effective means of visualizing the sequence using powerflow.
+
+**Methods Implemented:**
+
+-pandapower
+
+-NetworkX
+
+**Test Data:**
+
+1. Randomly generated transmission networks
+
+ We can find the best possible path to black start a transmission network and verify our results by running powerflow with pandapower (restoration sequence bottom right seen in **figure 17** below ).
+
+Using NetworkX, we can visualize the results of powerflow at each step of blackstart where, for each node, size is the power generation and color is the power demand. The arrows in the graph represent the *direction of current flowing* and the *width* of the edges show how much power is transferred from one node to another (powerflow results top right).
+
+![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/REC_BLACK_START.png)
+##### **Figure 17**
