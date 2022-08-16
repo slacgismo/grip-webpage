@@ -3,23 +3,13 @@
 {{- /*  theme is light  */}}
 {{- if (eq .Site.Params.defaultTheme "light") }}
 {{ if or .Params.math .Site.Params.math }}
-  {{ partial "helpers/katex.html" . }}
+  {{ partial "math.html" . }}
 {{ end }}
 <script>
     if (localStorage.getItem("pref-theme") === "dark") {
         document.body.classList.add('dark');
     }
 
-</script>
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-        renderMathInElement(document.body, {
-            delimiters: [
-                {left: "$$", right: "$$", display: true},
-                {left: "$", right: "$", display: false}
-            ]
-        });
-    });
 </script>
 
 {{- /*  theme is dark  */}}
