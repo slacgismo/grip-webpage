@@ -2,6 +2,7 @@
 {{- if (not .Site.Params.disableThemeToggle) }}
 {{- /*  theme is light  */}}
 {{- if (eq .Site.Params.defaultTheme "light") }}
+{{ if .Params.math }}{{ partial "helpers/katex.html" . }}{{ end }}
 <script>
     if (localStorage.getItem("pref-theme") === "dark") {
         document.body.classList.add('dark');
