@@ -8,11 +8,10 @@
     }
 
 </script>
-{{- if (eq .Site.Params.defaultTheme "light") }}
 {{ if or .Params.math .Site.Params.math }}
   {{ partial "math.html" . }}
 {{ end }}
-
+{{- if (eq .Site.Params.defaultTheme "light") }}
 {{- /*  theme is dark  */}}
 {{- else if (eq .Site.Params.defaultTheme "dark") }}
 <script>
