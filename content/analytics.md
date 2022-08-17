@@ -278,7 +278,7 @@ In some cases, the wind pressure may reduce the tilt moment and in other cases i
 
 A tilted pole is illustrated in Figure 1, where \\(H\\) is measured in ft, \\(D_0\\), and \\(D_1\\) are measured in inch and M is measured in ft.lb. 
 
-
+![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/ANT_USECASE_POLE_LOADING.png)
 
 
 For small angles \\(\alpha\\), the moment resulting from the tilt of a pole of uniform diameter D and height His
@@ -300,38 +300,21 @@ $$X_{E_x}= (cos^2(\beta_T)*cos(\alpha)+sin^2(\beta_T))*X_E*cos(\beta_E)+(cos(\be
 $$X_{E_y}= (cos(\beta_T)*sin(\beta_T)*cos(\alpha)-cos(\beta_T)*sin(\beta_T))*X_E*cos(\beta_E)+(sin^2(\beta_T)*cos(\alpha)+cos^2(\beta_T))*X_E*sin(\beta_E)+sin(\beta_T)*sin(\alpha)*H_E $$
 
 Then the moment \\(M_O\\) and tilt mounted height \\(H_{E_T}\\) is
-$$M_ET= W \sqrt(X_{E_x}^2+X_{E_y}^2)$$
-
-$$HE_T=-sin(\alpha)*X_E*(cos(\beta_T)*cos(\beta_E)+sin(\beta_T)*sin(\beta_E))+cos(\alpha)*H_E$$
+$$M_{E_T}= W \sqrt(X_{E_x}^2+X_{E_y}^2)$$
 
 
+$$H{E_T}=-sin(\alpha)*X_E*(cos(\beta_T)*cos(\beta_E)+sin(\beta_T)*sin(\beta_E))+cos(\alpha)*H_E$$
 
-A tilted pole is represented below, where ![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/IMG_4.png) are measured in ft, and M is measured in ft.lb.
 
-![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/ANT_USECASE_POLE_LOADING.png)
 
-For small angles , the moment resulting from the tilt of a pole of uniform diameter D and height H is
 
-![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/IMG_5.png)
-m is the mass of the pole in lbs. The mass m of the pole can be calculated using the density of the material, where
 
-![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/IMG_6.png)
 
-The taper of the pole must be considered, in which case the moment is
-![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/IMG_7.png)
-where m(h) dh is the mass at the height h, such that
-![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/IMG_8.png)
-with r(h)=0.5 ![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/IMG_9.png) measured in ft. The resulting moment is
 
-![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/IMG_MT_1.png)
-![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/IMG_MT_2.png)
 
-### **9. Mounted equipment loading due to pole tilt**
 
-Equipment mounted on a tilted pole may induce small changes in the moment depending on the position relative to the pole's centerline and the tilt direction.  The moment of equipment mounted offset from the pole's centerline is:
-![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/IMG_10.png)
-where W is the weight of the equipment in lbs and X is the offset distance in ft.  When the pole is tilted at an angle  and the equipment is mounted direction =E-T relative to the pole tilt direction, then the moment is
-![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/IMG_11.png)
+
+
 
 
 ### **10. Anticipate DER Analytics**
