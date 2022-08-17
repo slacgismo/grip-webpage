@@ -276,12 +276,12 @@ In some cases, the wind pressure may reduce the tilt moment and in other cases i
 
 ##### Pole loading due to pole tilt angle
 
-A tilted pole is illustrated in Figure 1, where \\(H\\) is measured in ft, \\(D_0\\), and \\(D_1\\) are measured in inch and M is measured in ft.lb. 
+A tilted pole is illustrated in Figure 1, where \\(H\\) is measured in ft, \\(D_0\\), and \\(D_1\\) are measured in inch and \\(M\\) is measured in ft.lb. 
 
 ![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/ANT_USECASE_POLE_LOADING.png)
 
 
-For small angles \\(\alpha\\), the moment resulting from the tilt of a pole of uniform diameter D and height His
+For small angles \\(\alpha\\), the moment resulting from the tilt of a pole of uniform diameter \\(D\\) and height \\(H\\) is
 	$$M_{PT}=0.5 m H sin\alpha$$
 where m is the mass of the pole in lbs. The mass m of the pole can be calculated using the density \\(\rho\\) of the material, e.g., \\(35 lb/ft^3\\), such that \\( m = (D/2/12)^2 H \rho =0.001736 \pi D^2 H \rho \\). 
 However, the taper of the pole must be considered, in which case the moment is
@@ -300,10 +300,10 @@ $$X_{E_x}= (cos^2(\beta_T)*cos(\alpha)+sin^2(\beta_T))*X_E*cos(\beta_E)+(cos(\be
 $$X_{E_y}= (cos(\beta_T)*sin(\beta_T)*cos(\alpha)-cos(\beta_T)*sin(\beta_T))*X_E*cos(\beta_E)+(sin^2(\beta_T)*cos(\alpha)+cos^2(\beta_T))*X_E*sin(\beta_E)+sin(\beta_T)*sin(\alpha)*H_E $$
 
 Then the moment \\(M_O\\) and tilt mounted height \\(H_{E_T}\\) is
-$$M_{E_T}= W \sqrt(X_{E_x}^2+X_{E_y}^2)$$
+$$M_{ET}= W \sqrt(X_{E_x}^2+X_{E_y}^2)$$
 
 
-$$H_{E_T}=-sin(\alpha)*X_E*(cos(\beta_T)*cos(\beta_E)+sin(\beta_T)*sin(\beta_E))+cos(\alpha)*H_E$$
+$$H_{ET}=-sin(\alpha)*X_E*(cos(\beta_T)*cos(\beta_E)+sin(\beta_T)*sin(\beta_E))+cos(\alpha)*H_E$$
 
 
 
