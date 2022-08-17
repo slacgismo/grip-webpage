@@ -209,6 +209,102 @@ Pole degradation is modeled by computing the rate at which the interior is hollo
 
 ### **8. Pole Loading Due to Pole Tilt Angle**
 
+The pole failure model in GridLAB-D has been updated to support the extended Grid Resilience Intelligence Platform (GRIP) use case for the *HiPAS Project (CEC EPC-17-046)*. Utility structures are analysed while accouting for presence of conductors, equipment, hardware, miscelaneous cables and extreme weather. The pole failure model in GridLAB-D is designed to examine multiple failure modes. However, given that ground-level structural failures are reported as the most frequent, the current implementation only supports these. Other failure modes are under current implementation and will be available in future versions of HiPAS GridLAB-D.
+
+
+
+Detailed implementation and methodology in the following sections. 
+
+##### Ground-level Failure
+A pole can fail at or near the ground line due to excessive forces on the structure.  The following forces are considered:
+- Pole loading due to pole tilt angle
+- Mounted equipment loading due to pole tilt
+- Wire weight loading due to pole tilt angle
+- Wind pressure on pole
+- Wind loading due to wind pressure on mounted equipment
+- Wire loading due to wind pressure on wire
+- Wire ice loading
+- Loading due to wire tension asymmetry
+- Critical wind speed for pole failure
+- Pole failure probability under wind gust
+- Wire sag loading due to sag asymmetry *Future work*
+- Wire loading due to line sway *Future work*
+- Wire loading due to line gallop *Future work*
+
+##### Superstructure Failure 
+Since the resisting moment for the utility pole superstructure will drop as the diameter of the pole decreases, a pole may fail above the ground owing to the reduced resisting moment. The SLAC team currently works on the development and validation of pole superstructure loading analysis considering pole shear force, bending moment and pole stress.
+##### Other Failures
+Other failure modes are possible, such as foundation failures and equipment malfunction. These are not considered at this time.
+
+##### Methodology
+
+The basic method of evaluating the condition of a pole relative to ground-line structural failure is to calculate the resisting moment at ground level and compare that with the total moment from the loads present.  
+The resisting moment for a wood pole at the ground line is computed as follows:
+
+
+$$M_R = 0.008186S_fF_bD_0^3$$
+in ft.lb, where \\( S_f \\) is the NESC Table 261-1A safety factor (see Table 1), \\( F_b \\) is the fiber strength (see Table 2)and \\( D_0 \\) is the ground-line diameter of the pole in inches.
+
+Pole degradation is modeled by computing the rate at which the interior is hollowed out by rot.  The hollow interior diameter grows at the rate R such that the interior hollow diameter is given by \\( D_R=2 Y R \\) where Y is the age of the pole.  When considering pole degradation, the resisting moment is  
+	$$M_R=0.008186 S_f F_b (D_0^3-D_R^3)$$
+Note that the ground line failure assumption ignores the possibility that the hollow interior diameter may lead to failure at the midpoint of the pole or at the pole top near the superstructure.
+
+Table 1. NESC Table 261-1A Safety Factors \\( (S_f) \\)
+| Application      | Grade B | Grade C |
+| ----------- | ----------- | ----------- |
+| Rule 250B (normal conditions)           |
+| Wood Structures   | 0.65        | 0.85 |
+|Support structures | 1.00 | 1.00 |
+|Rule 250C (extreme conditions) |
+|Wood Stuctures | 0.75 | 0.75|
+|Support structures | 1.00 | 1.00|
+
+Table 2. Ultimate Fiber Stress of Selected Wood Products \\((F_b) \\)
+|Species | Fiber Stress (psi) |
+| ----------- | ----------- |
+|Southern Yellow Pine | 8,000|
+|Douglas Fir | 8,000|
+|Lodgepole Pine | 6,000|
+|Western Larch| 8,400|
+|Western Red Cedar | 6,000|
+
+When guy wires are present, the height at which the moments are calculated is determined by the attachment point of the guy wires rather than the ground line. The remainder of the methodology requires computing the contributions of the various loads to the total pole moment.
+Note that wind induced moments may not be in the same direction as the pole tilt. The incident angle of the wind must be considered with respect to the pole tilt angle such that \\( \beta = \beta_T-\beta_W \\).  The vector sum of the moments must be used, e.g.,
+	$$M=\sqrt(M_T+M_Pcos\beta)^2+(M_Psin\beta)^2$$	
+In some cases, the wind pressure may reduce the tilt moment and in other cases it may increase it.
+
+##### Pole loading due to pole tilt angle
+
+A tilted pole is illustrated in Figure 1, where \\(H\\) is measured in ft, \\(D_0\\), and \\(D_1\\) are measured in inch and M is measured in ft.lb. 
+
+
+
+
+For small angles \\(\alpha\\), the moment resulting from the tilt of a pole of uniform diameter D and height His
+	$$M_{PT}=0.5 m H sin\alpha$$
+where m is the mass of the pole in lbs. The mass m of the pole can be calculated using the density \\(\rho\\) of the material, e.g., \\(35 lb/ft^3\\), such that \\( m = (D/2/12)^2 H \rho =0.001736 \pi D^2 H \rho \\). 
+However, the taper of the pole must be considered, in which case the moment is
+	$$M_{PT}= sin\alpha \int_0^H h m(h) dh $$
+where m(h) dh is the mass at the height h, such that \\(m(h)= \roe \pi r(h)^2 \\) with r(h) measured in ft. The resulting moment is	
+$$r(h)=0.5 [D_0-(D_0-D_1) h/H]$$
+$$M_{PT}= 0.125\rho \pi H^2\[1/6(D_0+D_1)^2+1/3D_1^2]sin\alpha$$
+
+##### Mounted equipment loading due to pole tilt
+Equipment mounted on a tilted pole may induce small changes in the moment depending on the position relative to the pole's centerline and the tilt direction.  The moment of equipment mounted offset from the pole's centerline is
+	$$M_{ET}= W X_E$$	
+where \\(W\\) is the weight of the equipment in lbs and \\(X_E\\) is the offset distance in ft.  Denote the equipment mounted direction as \\(\beta_E\\) and mounted height as \\(H_E\\), when the pole is tilted at an angle  and the pole tilt direction is \\(\beta_T\\), the tilt equipment offset distance is
+
+$$X_{E_x}= (cos^2(\beta_T)*cos(\alpha)+sin^2(\beta_T))*X_E*cos(\beta_E)+(cos(\beta_T)*sin(\beta_T)*cos(\alpha)-cos(\beta_T)*sin(\beta_T))*X_E*sin(\beta_E)+cos(\beta_T)*sin(\alpha)*H_E$$
+
+$$X_{E_y}= (cos(\beta_T)*sin(\beta_T)*cos(\alpha)-cos(\beta_T)*sin(\beta_T))*X_E*cos(\beta_E)+(sin^2(\beta_T)*cos(\alpha)+cos^2(\beta_T))*X_E*sin(\beta_E)+sin(\beta_T)*sin(\alpha)*H_E $$
+
+Then the moment \\(M_O\\) and tilt mounted height \\(H_{E_T}\\) is
+$$M_ET= W \sqrt(X_{E_x}^2+X_{E_y}^2)$$
+
+$$HE_T=-sin(\alpha)*X_E*(cos(\beta_T)*cos(\beta_E)+sin(\beta_T)*sin(\beta_E))+cos(\alpha)*H_E$$
+
+
+
 A tilted pole is represented below, where ![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/IMG_4.png) are measured in ft, and M is measured in ft.lb.
 
 ![Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-D](/ANT_USECASE_POLE_LOADING.png)
