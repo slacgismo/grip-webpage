@@ -303,7 +303,7 @@ Then the moment \\(M_O\\) and tilt mounted height \\(H_{E_T}\\) is
 $$M_{E_T}= W \sqrt(X_{E_x}^2+X_{E_y}^2)$$
 
 
-$$H{E_T}=-sin(\alpha)*X_E*(cos(\beta_T)*cos(\beta_E)+sin(\beta_T)*sin(\beta_E))+cos(\alpha)*H_E$$
+$$H_{E_T}=-sin(\alpha)*X_E*(cos(\beta_T)*cos(\beta_E)+sin(\beta_T)*sin(\beta_E))+cos(\alpha)*H_E$$
 
 
 
