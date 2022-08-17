@@ -8,6 +8,12 @@
     }
 
 </script>
+
+{{ range .Site.Params.custom_css -}}
+    <link rel="stylesheet" href="{{ . | absURL }}">
+{{- end }}
+
+
 {{ if or .Params.math .Site.Params.math }}
   {{ partial "math.html" . }}
 {{ end }}
