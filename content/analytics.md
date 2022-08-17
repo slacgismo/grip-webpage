@@ -1,6 +1,7 @@
 ---
 title: "Analytics"
 draft: false
+math : true
 ---
 
 ### Table of contents for Anticipation, Absorption, and Recovery Models and Model Outputs
