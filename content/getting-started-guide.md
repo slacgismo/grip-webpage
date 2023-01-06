@@ -6,10 +6,10 @@ draft: false
 GRIP is supported on two platforms: GMLC GCP platform and OpenFIDO platform.
 
 # GMLC Platform 
+TEST 
 
-{{< details "This is the summary" >}}
-Collapsed text
-{{< /details >}}
+
+
 
 This platform supports analytics developed under the GMLC grant (See Analytics for more info). 
 
