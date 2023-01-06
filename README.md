@@ -22,7 +22,7 @@ Install homebrew if not installed.
 Navigate to the root directory of this project
 
 ```
-    hugo Server
+    hugo server
 ```
 
 Go to the suggested localhost address on your terminal
