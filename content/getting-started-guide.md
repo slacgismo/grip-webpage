@@ -3,9 +3,15 @@ title: "Getting Started Guide"
 date: 2021-03-05T17:12:57-08:00
 draft: false
 ---
-# This is where the web platform will live!
+GRIP is supported on two platforms: GMLC GCP platform and OpenFIDO platform.
 
-*Let us walk you through the step by step process to accessing the web platform! To begin, let us start with Anticipation*
+# GMLC Platform 
+
+{{< details "This is the summary" >}}
+Collapsed text
+{{< /details >}}
+
+This platform supports analytics developed under the GMLC grant (See Analytics for more info). 
 
 **Step 1**: First thing is first, make sure you have a username and password to access your account.
 ![Figure 2-Hinesburg circuit plotted with edge width relative to GridLab-D](/DEMO_1_SLIDE_1.png)
