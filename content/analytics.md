@@ -19,7 +19,6 @@ math : true
 11. [Anticipate Outage Cost Analysis](#outage)
 12. [Anticipate- Smart Switching](#smart)
 13. [Vegetation Impact Analysis](#vegetation)
-14. [Vegetation Fall](#fall)
 
 *[Absorption]*
 1. [GRIP Absorption/virtual islanding](#islanding)
