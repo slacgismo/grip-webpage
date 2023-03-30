@@ -93,23 +93,19 @@ menu:
           name: Use Cases
           url: /use-cases/
           weight: 20
-        - identifier: Analytics
-          name: Analytics
-          url: /analytics/
-          weight: 30
         - identifier: Publications
           name: Publications
           url: /publications/
-          weight: 40
+          weight: 30
         - identifier: Pilots
           name: Pilots
           url: /pilots/
-          weight: 50
+          weight: 40
         - identifier: Team
           name: Team
           url: /team/
-          weight: 60
+          weight: 50
         - identifier: Contact
           name: Contact
           url: /contact/
-          weight: 70
+          weight: 60
