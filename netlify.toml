@@ -1,6 +1,7 @@
 [build]
   command = "hugo"
   publish = "public"
+  image = "gohugoio/hugo:latest"
 
 [build.environment]
   HUGO_VERSION = "0.111.3"
