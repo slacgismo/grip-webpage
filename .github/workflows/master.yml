@@ -25,7 +25,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           personal_token: ${{ secrets.TOKEN }}
-          external_repository: slacgismo/grip-webpage.github.io
+          external_repository: https://github.com/slacgismo/grip-webpage.git
           publish_dir: ./public
           #   keep_files: true
           user_name: aivanova5
