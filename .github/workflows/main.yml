@@ -2,7 +2,7 @@ name: CI
 on: push
 jobs:
   deploy:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-20.04
     steps:
       - name: Git checkout
         uses: actions/checkout@v2
@@ -30,5 +30,5 @@ jobs:
           #   keep_files: true
           user_name: aivanova5
           user_email: ivanova.alyona5@gmail.com
-          publish_branch: master
-          cname: www.grip.energy
+          publish_branch: gh-pages
+          cname: slacgismo.github.io
