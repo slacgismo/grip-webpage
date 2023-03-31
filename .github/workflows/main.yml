@@ -31,4 +31,4 @@ jobs:
           user_name: aivanova5
           user_email: ivanova.alyona5@gmail.com
           publish_branch: gh-pages
-          cname: slacgismo.github.io
+          cname: grip.energy
