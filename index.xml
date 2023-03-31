@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GRIP</title>
+    <link>https://grip.energy/</link>
+    <description>Recent content on GRIP</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://grip.energy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Anticipation</title>
+      <link>https://grip.energy/use-cases/1/</link>
+      <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://grip.energy/use-cases/1/</guid>
+      <description>Video Tutorial for Pole Analysis and Vegetation Case</description>
+    </item>
+    
+    <item>
+      <title>Absorption</title>
+      <link>https://grip.energy/use-cases/2/</link>
+      <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://grip.energy/use-cases/2/</guid>
+      <description>GRIP Absorption Objectives
+1.Minimize the value-weighted amount of unserved load.
+2.Maintain as much reserve as possible to account for future load increases.
+3.Maximize the batteries state of-charge at the final time step
+Minimize the number of switching events and the total number of loads that are “on” for reserves accounting. The work described here was led by Packetized Energy and is one component of a research and development initiative led by the SLAC National Accelerator Laboratory known as GRIP: The Grid Resilience and Intelligence Platform.</description>
+    </item>
+    
+    <item>
+      <title>Recovery</title>
+      <link>https://grip.energy/use-cases/3/</link>
+      <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://grip.energy/use-cases/3/</guid>
+      <description>Goal of the Recovery Phase and GRIP: leverage distributed energy resources (DER) to facilitate faster and safer electricity distribution network reconfiguration and recovery after a catastrophic network event. The Recovery use-case characteristics Increase the speed and safety of grid Recovery Used to reconfigure portions of the grid by opening/closing switches Current strategies use of utility crews to be deployed with mobile generation to facilitate switching minimizing power surges Arcing when opening/closing switches In order to prevent large power surges, acing, and equipment damage during switching actions, DER will be employed to minimize the voltage difference across the ends of a switch.</description>
+    </item>
+    
+    <item>
+      <title>SCE Deployment</title>
+      <link>https://grip.energy/pilots/4/</link>
+      <pubDate>Tue, 31 Jan 2023 17:12:57 -0800</pubDate>
+      
+      <guid>https://grip.energy/pilots/4/</guid>
+      <description>Status: Ongoing SCE has a number of priorities that can be addressed through GRIP as outlined here. The platform can address and quantify the potential loss of property due to fire damage, injury and fatality. GRIP can aid SCE with mitigation of in the events that lack communication, decision making authority, or cause interruptions / loss of network hardware, computing infrastructure, cybersecurity, physical security and service interruption. Using the GRIP metrics, prioritization of network assets can be achieved that incentivise upkeep of critical customers, critical infrastructure, high fire risk areas and underprivileged communities.</description>
+    </item>
+    
+    <item>
+      <title>EPB Deployment</title>
+      <link>https://grip.energy/pilots/3/</link>
+      <pubDate>Sat, 31 Dec 2022 17:12:57 -0800</pubDate>
+      
+      <guid>https://grip.energy/pilots/3/</guid>
+      <description>Status: Commencing Come Back Soon</description>
+    </item>
+    
+    <item>
+      <title>NRECA Deployment</title>
+      <link>https://grip.energy/pilots/1/</link>
+      <pubDate>Sat, 31 Dec 2022 17:12:57 -0800</pubDate>
+      
+      <guid>https://grip.energy/pilots/1/</guid>
+      <description>Status: Completed A series of analytics and OMF.coop platform capabilities were developed over the course of the GRIP project. The OMF.coop platform serves over 176 utilities, universities and vendors. Linked below are the locations of the code and instructions for how to use it.
+(OMF Enhancement Release Code and Report
+(https://drive.google.com/file/d/1uU7dEJ1NXMqgkelMocfi6S5NEgsVpK1c/view?usp=sharing)
+NRECA plays role in conjunction with the Anticipate OMF.coop to GRIP use cases to provide a comprehensive grid intelligence. The following information below explain the use case of the OMF deployment.</description>
+    </item>
+    
+    <item>
+      <title>OpenFIDO</title>
+      <link>https://grip.energy/getting-started-guide/1/</link>
+      <pubDate>Sat, 31 Dec 2022 17:12:57 -0800</pubDate>
+      
+      <guid>https://grip.energy/getting-started-guide/1/</guid>
+      <description>http://app.openfido.org
+Getting Started There are several options to help new users starting out with OpenFIDO, which is accessible through several distinct methods, or developers looking to help contribute to the project.
+Sign up to shared app You can email support@openfido.org to request to utilize the online application&amp;rsquo;s resources. Once your request to use the application is approved, you will have access to all publicly available repositories that can be automatically searched in this organization, or you can manually designate your own repositories to run.</description>
+    </item>
+    
+    <item>
+      <title>PG&amp;E Deployment</title>
+      <link>https://grip.energy/pilots/5/</link>
+      <pubDate>Sat, 31 Dec 2022 17:12:57 -0800</pubDate>
+      
+      <guid>https://grip.energy/pilots/5/</guid>
+      <description>Status: Completed Summary
+GRIP deployed a simplified version of PG&amp;amp;E’s distribution system using QGIS. The main layer is a modified version of PG&amp;amp;E’s Integration Capacity Analysis(ICA) shapefiles, parsed down to include 2764 kilometers of power lines consisting of 31 distribution feeders drawing power from 8 substations within Napa County. Lines extending from these substations beyond the county line were included, and lines from substations outside of Napa County were excluded. Additionally, feeders were assumed to be independent from one another.</description>
+    </item>
+    
+    <item>
+      <title>Vermont Cooperative (Hinesburg) Deployment</title>
+      <link>https://grip.energy/pilots/2/</link>
+      <pubDate>Sat, 31 Dec 2022 17:12:57 -0800</pubDate>
+      
+      <guid>https://grip.energy/pilots/2/</guid>
+      <description>Status: Completed Packetized Energy contracted with licensed and insured installers to complete the installation of the Mello smart thermostat on the members’ water heaters.
+Description of the process/scenario: The information below explains the deployment process for the Absorption project in further detail. GRIP deployed 130 Mello devices, several EV charging stations and 1 battery system with VEC. In order to reach the 150 devices required for this project, additional devices were included from neighboring utilities including Green Mountain Power (GMP) and Burlington Electric Department (BED).</description>
+    </item>
+    
+    <item>
+      <title>GMLC Platform</title>
+      <link>https://grip.energy/getting-started-guide/2/</link>
+      <pubDate>Fri, 05 Mar 2021 17:12:57 -0800</pubDate>
+      
+      <guid>https://grip.energy/getting-started-guide/2/</guid>
+      <description>GRIP is supported on two platforms: GMLC GCP platform and OpenFIDO platform.
+This platform supports analytics developed under the GMLC grant (See Analytics for more info).
+Step 1: First thing is first, make sure you have a username and password to access your account. Step 2: Access your dashboard from the menu, and select simulation under the Anticipation option. You can access various simulations depending on what you choose. Step 3: Access GRIP simulation analysis for risk modeling and quantification questions that pertain to vegetation.</description>
+    </item>
+    
+    <item>
+      <title>Contact Us</title>
+      <link>https://grip.energy/contact/</link>
+      <pubDate>Fri, 05 Mar 2021 17:08:41 -0800</pubDate>
+      
+      <guid>https://grip.energy/contact/</guid>
+      <description>&lt;!DOCTYPE HTML&gt;</description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>https://grip.energy/publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://grip.energy/publications/</guid>
+      <description>&lt;!DOCTYPE HTML&gt;Anticipation [1] &#34;NRECA Final Report&#34; D. Pinney, &#34;NRECA GRIP Final Report,&#34; A report that provide a rough overview of work completed by NRECA under GRIP.,p.25, September 2020. [Online]. Available: Here[2] &#34;HiPAS Pole Failure Model&#34; SLAC National Accelerator Laboratory, &#34;HIPAS Pole Failure Model,&#34; A report that explains the pole failure model in GridLAB-D.,p.9, May 2021. [Online]. Available: Here
+[3] &#34;Vegetation Impact Analysis&#34; D. Chassin, A. Teyber, &#34;Vegetation Impact Analysis&#34;</description>
+    </item>
+    
+    <item>
+      <title>Team</title>
+      <link>https://grip.energy/team/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://grip.energy/team/</guid>
+      <description>&lt;!DOCTYPE HTML&gt;https://www6.slac.stanford.edu/ https://www.stanford.edu/ https://gig.lbl.gov/ https://www.electric.coop/ https://presencepg.com/ https://packetizedenergy.com/ </description>
+    </item>
+    
+  </channel>
+</rss>

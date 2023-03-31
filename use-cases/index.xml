@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Use Cases on GRIP</title>
+    <link>https://grip.energy/use-cases/</link>
+    <description>Recent content in Use Cases on GRIP</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://grip.energy/use-cases/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Anticipation</title>
+      <link>https://grip.energy/use-cases/1/</link>
+      <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://grip.energy/use-cases/1/</guid>
+      <description>Video Tutorial for Pole Analysis and Vegetation Case</description>
+    </item>
+    
+    <item>
+      <title>Absorption</title>
+      <link>https://grip.energy/use-cases/2/</link>
+      <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://grip.energy/use-cases/2/</guid>
+      <description>GRIP Absorption Objectives
+1.Minimize the value-weighted amount of unserved load.
+2.Maintain as much reserve as possible to account for future load increases.
+3.Maximize the batteries state of-charge at the final time step
+Minimize the number of switching events and the total number of loads that are “on” for reserves accounting. The work described here was led by Packetized Energy and is one component of a research and development initiative led by the SLAC National Accelerator Laboratory known as GRIP: The Grid Resilience and Intelligence Platform.</description>
+    </item>
+    
+    <item>
+      <title>Recovery</title>
+      <link>https://grip.energy/use-cases/3/</link>
+      <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://grip.energy/use-cases/3/</guid>
+      <description>Goal of the Recovery Phase and GRIP: leverage distributed energy resources (DER) to facilitate faster and safer electricity distribution network reconfiguration and recovery after a catastrophic network event. The Recovery use-case characteristics Increase the speed and safety of grid Recovery Used to reconfigure portions of the grid by opening/closing switches Current strategies use of utility crews to be deployed with mobile generation to facilitate switching minimizing power surges Arcing when opening/closing switches In order to prevent large power surges, acing, and equipment damage during switching actions, DER will be employed to minimize the voltage difference across the ends of a switch.</description>
+    </item>
+    
+  </channel>
+</rss>

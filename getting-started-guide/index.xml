@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Getting started guide on GRIP</title>
+    <link>https://grip.energy/getting-started-guide/</link>
+    <description>Recent content in Getting started guide on GRIP</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 31 Dec 2022 17:12:57 -0800</lastBuildDate><atom:link href="https://grip.energy/getting-started-guide/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OpenFIDO</title>
+      <link>https://grip.energy/getting-started-guide/1/</link>
+      <pubDate>Sat, 31 Dec 2022 17:12:57 -0800</pubDate>
+      
+      <guid>https://grip.energy/getting-started-guide/1/</guid>
+      <description>http://app.openfido.org
+Getting Started There are several options to help new users starting out with OpenFIDO, which is accessible through several distinct methods, or developers looking to help contribute to the project.
+Sign up to shared app You can email support@openfido.org to request to utilize the online application&amp;rsquo;s resources. Once your request to use the application is approved, you will have access to all publicly available repositories that can be automatically searched in this organization, or you can manually designate your own repositories to run.</description>
+    </item>
+    
+    <item>
+      <title>GMLC Platform</title>
+      <link>https://grip.energy/getting-started-guide/2/</link>
+      <pubDate>Fri, 05 Mar 2021 17:12:57 -0800</pubDate>
+      
+      <guid>https://grip.energy/getting-started-guide/2/</guid>
+      <description>GRIP is supported on two platforms: GMLC GCP platform and OpenFIDO platform.
+This platform supports analytics developed under the GMLC grant (See Analytics for more info).
+Step 1: First thing is first, make sure you have a username and password to access your account. Step 2: Access your dashboard from the menu, and select simulation under the Anticipation option. You can access various simulations depending on what you choose. Step 3: Access GRIP simulation analysis for risk modeling and quantification questions that pertain to vegetation.</description>
+    </item>
+    
+  </channel>
+</rss>

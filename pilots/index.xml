@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pilots on GRIP</title>
+    <link>https://grip.energy/pilots/</link>
+    <description>Recent content in Pilots on GRIP</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 31 Jan 2023 17:12:57 -0800</lastBuildDate><atom:link href="https://grip.energy/pilots/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SCE Deployment</title>
+      <link>https://grip.energy/pilots/4/</link>
+      <pubDate>Tue, 31 Jan 2023 17:12:57 -0800</pubDate>
+      
+      <guid>https://grip.energy/pilots/4/</guid>
+      <description>Status: Ongoing SCE has a number of priorities that can be addressed through GRIP as outlined here. The platform can address and quantify the potential loss of property due to fire damage, injury and fatality. GRIP can aid SCE with mitigation of in the events that lack communication, decision making authority, or cause interruptions / loss of network hardware, computing infrastructure, cybersecurity, physical security and service interruption. Using the GRIP metrics, prioritization of network assets can be achieved that incentivise upkeep of critical customers, critical infrastructure, high fire risk areas and underprivileged communities.</description>
+    </item>
+    
+    <item>
+      <title>EPB Deployment</title>
+      <link>https://grip.energy/pilots/3/</link>
+      <pubDate>Sat, 31 Dec 2022 17:12:57 -0800</pubDate>
+      
+      <guid>https://grip.energy/pilots/3/</guid>
+      <description>Status: Commencing Come Back Soon</description>
+    </item>
+    
+    <item>
+      <title>NRECA Deployment</title>
+      <link>https://grip.energy/pilots/1/</link>
+      <pubDate>Sat, 31 Dec 2022 17:12:57 -0800</pubDate>
+      
+      <guid>https://grip.energy/pilots/1/</guid>
+      <description>Status: Completed A series of analytics and OMF.coop platform capabilities were developed over the course of the GRIP project. The OMF.coop platform serves over 176 utilities, universities and vendors. Linked below are the locations of the code and instructions for how to use it.
+(OMF Enhancement Release Code and Report
+(https://drive.google.com/file/d/1uU7dEJ1NXMqgkelMocfi6S5NEgsVpK1c/view?usp=sharing)
+NRECA plays role in conjunction with the Anticipate OMF.coop to GRIP use cases to provide a comprehensive grid intelligence. The following information below explain the use case of the OMF deployment.</description>
+    </item>
+    
+    <item>
+      <title>PG&amp;E Deployment</title>
+      <link>https://grip.energy/pilots/5/</link>
+      <pubDate>Sat, 31 Dec 2022 17:12:57 -0800</pubDate>
+      
+      <guid>https://grip.energy/pilots/5/</guid>
+      <description>Status: Completed Summary
+GRIP deployed a simplified version of PG&amp;amp;E’s distribution system using QGIS. The main layer is a modified version of PG&amp;amp;E’s Integration Capacity Analysis(ICA) shapefiles, parsed down to include 2764 kilometers of power lines consisting of 31 distribution feeders drawing power from 8 substations within Napa County. Lines extending from these substations beyond the county line were included, and lines from substations outside of Napa County were excluded. Additionally, feeders were assumed to be independent from one another.</description>
+    </item>
+    
+    <item>
+      <title>Vermont Cooperative (Hinesburg) Deployment</title>
+      <link>https://grip.energy/pilots/2/</link>
+      <pubDate>Sat, 31 Dec 2022 17:12:57 -0800</pubDate>
+      
+      <guid>https://grip.energy/pilots/2/</guid>
+      <description>Status: Completed Packetized Energy contracted with licensed and insured installers to complete the installation of the Mello smart thermostat on the members’ water heaters.
+Description of the process/scenario: The information below explains the deployment process for the Absorption project in further detail. GRIP deployed 130 Mello devices, several EV charging stations and 1 battery system with VEC. In order to reach the 150 devices required for this project, additional devices were included from neighboring utilities including Green Mountain Power (GMP) and Burlington Electric Department (BED).</description>
+    </item>
+    
+  </channel>
+</rss>
