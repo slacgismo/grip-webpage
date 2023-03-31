@@ -67,29 +67,26 @@ All the content changes should be happening in the content folder
     Auto deploy is setup using Netlify. Changes merged in to the main branch auto update https://grip.energy.
 
 ## GitHub Repositories
-    This link is the main page for the GRIP energy webpage repositories
-    https://github.com/slacgismo/grip-webpage/
-
-    This repository includes GRIP-webpage archetypes
+   This repository includes GRIP-webpage archetypes:
     https://github.com/slacgismo/grip-webpage/tree/main/archetypes/
 
-    This repository for the GRIP-webapge content
+    This repository for the GRIP-webapge content:
     https://github.com/slacgismo/grip-webpage/tree/main/content/
 
-    This repository includes the layouts and partials of the GRIP-webpage
+    This repository includes the layouts and partials of the GRIP-webpage:
     https://github.com/slacgismo/grip-webpage/tree/main/layouts/partials/
 
-    This repository includes the static for the GRIP webpage 
+    This repository includes the static for the GRIP webpage:
     https://github.com/slacgismo/grip-webpage/tree/main/static/
 
-    This repository includes the themes/ paperMod for the GRIP webpage
+    This repository includes the themes/ paperMod for the GRIP webpage:
     https://github.com/slacgismo/grip-webpage/tree/main/themes/PaperMod/
 
-    This repository includes deployment page set up
+    This repository includes deployment page set up:
     https://github.com/slacgismo/grip-webpage/blob/main/.gitignore/
 
-    This repository includes step by step setup of GRIP website 
+    This repository includes step by step setup of GRIP website:
     https://github.com/slacgismo/grip-webpage/blob/main/README.md/
 
-    This repository includes the setup for the analytics page of the GRIP webpage
+    This repository includes the setup for the analytics page of the GRIP webpage:
     https://github.com/slacgismo/grip-webpage/blob/main/config.yml/
