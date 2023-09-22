@@ -7,8 +7,8 @@ paginate: 5
 language: 'en-uk'
 
 # Website info
-name: 'Welcome to GRIP Energy!'
-description: "A simulation platform for future electricity distribution power systems."
+name: 'Welcome to Grid Resilience and Intelligence Platform!'
+description: "A cutting-edge software platform designed to help electric grid operators anticipate, mitigate against, and recover from the effects of extreme weather events."
 
 short_url: https://www.arras.energy/
 google_analytics: UA-69281367-1
