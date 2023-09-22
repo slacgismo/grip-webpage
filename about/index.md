@@ -1,42 +1,62 @@
 ---
 layout: page
 cover: 'assets/images/close.jpg'
-title: About Arras Energy
+title: About GRIP
 navigation: true
 logo: 'assets/images/arras.png'
 current: about
 ---
 
 
-# A simulation platform for future electricity distribution power systems.
+# Grid Resilience and Intelligence Platform
 
-Arras Energy, previously known as [HiPAS GridLab-D](https://www.energizeinnovation.fund/projects/hipas-gridlab-d-high-performance-agent-based-simulation-using-gridlab-d){:target="_blank"}, has emerged as an important open-source tool for utilities, researchers, and technology vendors in the development, maturation, and deployment of smart-grid and renewable energy resource integration technology. 
+GRIP (Grid Resilience and Intelligence Platform) is a cutting-edge software platform designed to help electric grid operators anticipate, mitigate against, and recover from the effects of extreme weather events.
 
 ## Background
 
-GridLAB-D was originally developed for the US Department of Energy by a team of researchers at Pacific Northwest National Laboratory to address emerging electric power system engineering challenges associated with grid modernization and climate change response, mitigation, and adaptation. 
+By combining state-of-the-art agent-based grid modeling tools with grid resilience metrics, GRIP can quantify the state of the grid assets before extreme events, and provide grid operators with actionable insights, such as staging maintenance crew locations, proactive pole hardening or grid topology reconfiguration, to help minimize equipment damage and revenue loss due to power outages. 
+
+GRIP is a project led by the Department of Energy’s SLAC National Accelerator Laboratory that combines artificial intelligence with massive amounts of data and industry experience from a dozen U.S. partners to identify places where the electric grid is vulnerable to disruption, reinforce those spots in advance and recover faster when failures do occur.
+
+With GRIP, electrical utility operators can reduce operating costs by optimizing grid hardening costs and lowering liability costs and shareholder exposure. These grid operator benefits will ultimately lead to lower electricity rates for customers. 
+
+The project has been deployed with one of the largest California investor-owned utilities (IOUs), Southern California Edison (SCE). 
 
 <img src="{{ site.baseurl }}assets/images/2workers.jpg" alt="linux" style="max-width: 500px;">
 
-The first release of GridLAB-D was in 2008. Since then it has been used by the US Department of Energy for key electric power system studies, including conservation voltage reduction, dynamic pricing, peer-to-peer energy exchange, and fault-induced delayed voltage recovery.
+## Customer Need
 
-## Key results:
-- Achieved 97.5% success rate in automatic conversion from Cyme models.
--  Simulation speed tests approximately 180 times faster than the DOE version.
-- Significant reductions in cloud operating costs, including 94% reduction in storage, and
-more than 99% reductions in runtime and computing costs.
-
-## Architecture
-
-Arras delivers an open and developer-friendly framework for addressing important use-cases identified by key industry stakeholders. These use-cases include (1) distributed energy resource hosting capacity, (2) tariff design, (3) end-use load electrification, (4) extreme weather resilience, (5) wildfire safety and protection, (6) peer-to-peer energy, (7) advanced load modeling and forecasting, and (8) high-performance scenario planning at scale to better plan for increasing uncertainty with DER integration.
+Increasingly frequent severe weather events cost grid operators billions of dollars per year in repair cost. In 2022, $12.4 billion in weather related utility debt was issued in the U.S., which has led to dramatic increase in prices of electricity across several states. In the state of Louisiana alone, severe storms caused an estimated $4.4 billion in grid damage in 2020 and 2021. In response to this growing risk, grid operators are spending billions of dollars annually to harden their infrastructure against harm. Without effective tools to guide these investments, their effectiveness is limited.  Utilities are plagued by department data silos, leaving them ill-equipped to focus their grid hardening investments where it will do the most good. In addition, these silos result in an inability to quantify the indirect costs associated with large scale weather events, such as accident liability costs. Without an accurate view into these costs, grid operators struggle to justify long term investments disassociated from short-term rate design cycle. 
 
 <img src="{{ site.baseurl }}assets/images/dirt.jpg" alt="linux" style="max-width: 520px;">
 
-Arras addresses the needs of key stakeholders such as power system researchers, planners, operators, policy-makers and regulators. Specifically, this software provides an open-source advanced power system simulation engine capable of performing very large scale simulations of distribution systems that include a large fraction of so-called smart grid technology and distributed energy resources that the key stakeholders cannot obtain and/or afford to license from existing software vendors. The goal is for these open source tools to continue to gain ongoing support to possibly open the idea of replacing legacy license tools.
+## Approach
 
-## Energy Efficiency
+GRIP uses telemetry data to identify infrastructure most at risk from severe weather. One of the key strengths of GRIP is its threat-agnostic grid modeling capabilities. Regardless of the type of extreme weather event, if telemetry data is available regarding the failed asset, GRIP's system modeling capabilities can provide actionable insights to the grid operator. By taking an overall system perspective, GRIP is unique in its ability to coordinate heterogeneous datasets and derive numerous features to enable a proactive response to extreme weather. GRIP integrates disparate sources of data that don't usually get analyzed in the same context, while also providing an alternative source of data for the information that may not be available internally. For example, prior to an event, GRIP can use telemetry data to identify portions of the grid that are most likely to experience asset failure due to extreme wind or vegetation strike or identify wildland areas at risk of wildfire from close grid interface . Armed with this information, grid operators can deploy field resources in a timely manner to minimize equipment damage or loss of revenue due to power outages.
 
-In 2018, the California Energy Commission authorized $6M of EPIC program funding for three open-source projects for SLAC National Accelerator Laboratory to create a commercially viable version of GridLAB-D’s back-end simulation engine and Hitachi America Labs to create a front-end for users in California’s three largest utilities. This push for electrical efficiency include all users for the tool, from students, researchers, utilities (investor owned and publicly owned), regulators, developers, etc. The front-end software is called GLOW (which stands for GridLAB-D Open Workspace), and the back-end software, which was called HiPAS GridLAB-D, now Arras, as well as OpenFIDO which includes the pipeline tools that use Arras for multifunctional purposes.
+Prior to an extreme weather event, GRIP can generate scenarios to minimize customer impact. For example, if dry conditions and extreme winds are forecast for a particular section of the distribution system, GRIP can run a topology optimization algorithm and illustrate how to operate the system with two main objectives: minimizing the risk of wildfire and minimizing the magnitude and duration of power outages associated with that section of the grid. The algorithm prioritizes electrical resources based on wildfire risk, availability of DERs, and neighborhood census data to account for equity gaps. 
+
+Prior to an extreme weather event, GRIP can generate scenarios to minimize customer impact. For example, if dry conditions and extreme winds are forecast for a particular section of the distribution system, GRIP can run a topology optimization algorithm and illustrate how to operate the system with two main objectives: minimizing the risk of wildfire and minimizing the magnitude and duration of power outages associated with that section of the grid. The algorithm prioritizes electrical resources based on wildfire risk, availability of DERs, and neighborhood census data to account for equity gaps. 
+
+## Benefits
+
+GRIP can unlock several benefits, including:
+
+Improved Resilience: GRIP can help to improve the resilience of the energy grid by providing early warning of potential disruptions and enabling a rapid response to these disruptions. Given limited resources, GRIP aids in determining the grid asset hardening prioritization given grid topology, local generation, types of consumers and other relevant data. This can help reduce the impact of disruptions and minimize downtime, in turn reducing liability costs due to negligence, and reduce grid hardening costs.
+
+Revenue Impact: GRIP can evaluate the reliability and resilience performance of the electrical grid. GRIP can provide real-time monitoring of grid performance, predictive maintenance, and the ability to quickly respond to disruptions. This can help to reduce downtime and improve the overall efficiency of the energy system, helping to attract new customers and increase revenue by unlocking new revenue streams. 
+
+Equity and diversity: GRIP is designed to quantify the impact of devastating events on the entire electricity distribution system. By considering the census data, system topology redundancy, local generation and resiliency-enabling technology availability, GRIP can aid utility operators to correctly allocate limited energy resources while best supporting  disadvantaged communities.
+
+## Competitive Advantage
+
+Several commercially available products on the market provide tailored solutions to either address system design or provide hosting platforms for utility data. Utilities also depend on in-house software tools to help manage operations. This diversity of tools results in uncoordinated intra department data sharing, gaps in analysis and overall operational inefficiency. As a result, GRIP provides more features for the same price as the competition.
+
+## Next Steps
+
+For GRIP to reach its scalable commercial potential, the platform requires additional utility deployments to generate the key performance metrics data from a real operational system. To address this challenge, we have secured additional funding to integrate the GRIP with a transactive utility operation system deployed at New Hampshire Electric Cooperative and plan to deploy it in the utilities under the Efficiency Maine Trust’s jurisdiction. We will continue working with SCE and other utilities to develop additional use-cases. Furthermore, we will seek out additional partners to deploy and utilize GRIP in other geographical locations. 
+
+
 
 ## Learn More
 Check out the [Tutorials](https://arras-energy.github.io/static-website/tutorials/) for more quick access to learning materials. Learn about the sucess stories of Arras Energy's implentation for [Use-Cases](https://arras-energy.github.io/static-website/use-cases/). Read into in-depth literature and news articles at [Reports](https://arras-energy.github.io/static-website/literature/). 
