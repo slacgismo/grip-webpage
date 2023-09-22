@@ -36,7 +36,6 @@ Welcome to our diverse resource page, filled with curated literature, reports, a
     - SLAC National Accelerator Laboratory,LBNL, "GRIP Phase 3 Rcovery Final Report," A report that explains the Recovery Phase of the Grid Resiliency and Intelligence Project (GRIP).,p.8.
 - [Model-Free Optimal Voltage Phasor Regulation in Unbalanced Distribution Systems](https://drive.google.com/file/d/1jHZxqsKxJBEMGOLAqmsfekUJ54m7cEHy/view?usp=sharing){:target="_blank"}
     - M. D. Sankur , R. Dobbe , A. von Meier , Member, IEEE, and D. B. Arnold, "Model-Free Optimal Voltage Phasor Regulation in Unbalanced Distribution Systems" IEEE Transactions on SMART GRID.,VOL.11, NO. 1,p.11, JANUARY 2020.
-- [How open source is accelerating electric sustainability - VentureBeat](https://venturebeat.com/programming-development/how-open-source-is-accelerating-electric-sustainability/){:target="_blank"}
 
 ## Learn More
 Check out the [Tutorials](https://arras-energy.github.io/static-website/tutorials/) for more quick access to learning materials. Learn about the sucess stories of Arras Energy's implentation for [Use-Cases](https://arras-energy.github.io/static-website/use-cases/). File all bugs/feature requests at [Arras Energy's GitHub repo](https://github.com/arras-energy).

@@ -7,8 +7,8 @@ paginate: 5
 language: 'en-uk'
 
 # Website info
-name: 'Welcome to Grid Resilience and Intelligence Platform!'
-description: "A cutting-edge software platform designed to help electric grid operators anticipate, mitigate against, and recover from the effects of extreme weather events."
+name: 'Welcome to GRIP Energy!'
+description: "Grid Resilience and Intellegence Platform"
 
 short_url: https://www.arras.energy/
 google_analytics: UA-69281367-1

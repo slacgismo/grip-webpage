@@ -8,6 +8,7 @@ logo: 'assets/images/arras.png'
 current: about
 ---
 # Are You A User or Developer?
+GRIP is supported on two platforms: GMLC GCP platform and OpenFIDO platform.
 Our video tutorials and presentations serve as powerful learning tools for both beginning users and experienced developers alike.
 
 ## Choosing Your Learning Path
