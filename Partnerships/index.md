@@ -1,6 +1,6 @@
 ---
 layout: page
-cover: 'assets/images/trees.jpg'
+cover: 'assets/images/sunrise.jpg'
 title: Partnerships
 navigation: true
 logo: 'assets/images/arras.png'

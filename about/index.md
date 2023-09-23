@@ -1,6 +1,6 @@
 ---
 layout: page
-cover: 'assets/images/trees.jpg'
+cover: 'assets/images/lines.jpg'
 title: About GRIP
 navigation: true
 logo: 'assets/images/arras.png'
