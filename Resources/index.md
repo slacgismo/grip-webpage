@@ -1,6 +1,6 @@
 ---
 layout: page
-cover: 'assets/images/station.jpg'
+cover: 'assets/images/2miles.jpg'
 navigation: True
 title:  "Getting Started"
 date:   2023-07-20 11:59:00 -0700

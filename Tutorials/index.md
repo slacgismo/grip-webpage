@@ -1,6 +1,6 @@
 ---
 layout: page
-cover: 'assets/images/worker.jpg'
+cover: 'assets/images/xl.jpg'
 navigation: True
 title:  "Tutorials"
 date:   2023-07-20 11:59:00 -0700
@@ -8,7 +8,7 @@ logo: 'assets/images/arras.png'
 current: about
 ---
 
-# Learn How To Use Arras Energy 
+# Learn How To Use GRIP Energy 
 
  Whether you're a beginner ready to learn the basics or an experienced developer seeking advanced implentation into your utilities, our collection of video and slide presentations has got you covered! Our expertly curated content is designed to guide you through each topic step-by-step, ensuring easy usage of Arras Energy.
 

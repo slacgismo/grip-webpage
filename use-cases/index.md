@@ -1,6 +1,6 @@
 ---
 layout: page
-cover: 'assets/images/talking.jpg'
+cover: 'assets/images/sunrise.jpg'
 navigation: True
 title:  "Use Cases"
 date:   2023-07-20 11:59:00 -0700
@@ -8,7 +8,7 @@ logo: 'assets/images/arras.png'
 current: about
 ---
 
-# Arras Energy in Action
+# Grid Resilience in Action
 
 The commercial-grade high-performance version of Arras Energy software developed for four California use-cases: load electrification, distributed resource integration hosting capacity, tariff design, and distribution system resilience.
 
@@ -49,25 +49,6 @@ ICA is achieved using a system-wide iterative power flow solution that examines
 all the combinations of loading at every customer meter in a distribution system. Distributed
 generation and DER resources are varied at customer meter, independently, to verify whether
 a system violation occurs somewhere within a feeder.
-
-### **Grid Resilience Analysis**
-GRIP is a cutting-edge software platform designed to help electric grid operators anticipate, mitigate against, and recover from the effects of extreme weather events. 
-
-By combining state-of-the-art agent-based grid modeling tools with grid resilience metrics, GRIP can quantify the state of the grid assets before extreme events, and provide grid operators with actionable insights, such as staging maintenance crew locations, proactive pole hardening or grid topology reconfiguration, to help minimize equipment damage and revenue loss due to power outages. 
-
-<img src="{{ site.baseurl }}assets/images/fire.jpg" alt="linux" style="max-width: 520px;">
-
-The goal of
-GRIP is to assist distribution utilities in responding to grid events by:
-
-- Anticipating grid events using machine learning and artificial intelligence techniques
-with diverse data sources.
-- Absorbing grid events by employing validated control strategies for distributed energy
-resources; and
-- Reducing recovery time by managing distributed energy resources in the case of limited
-communications.
-
-With GRIP, electrical utility operators can reduce operating costs by optimizing grid hardening costs and lowering liability costs and shareholder exposure. These grid operator benefits will ultimately lead to lower electricity rates for customers. 
 
 ### **Electrification** ###
 

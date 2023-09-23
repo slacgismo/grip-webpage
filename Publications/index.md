@@ -1,6 +1,6 @@
 ---
 layout: page
-cover: 'assets/images/wind.jpg'
+cover: 'assets/images/pink.jpg'
 navigation: True
 title:  "Publications"
 date:   2023-07-20 11:59:00 -0700
