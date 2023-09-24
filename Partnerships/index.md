@@ -1,7 +1,7 @@
 ---
 layout: page
 cover: 'assets/images/sunrise.jpg'
-title: Partnerships
+title: Partnerships | GRIP
 navigation: true
 logo: 'assets/images/arras.png'
 current: about

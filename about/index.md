@@ -1,7 +1,7 @@
 ---
 layout: page
 cover: 'assets/images/lines.jpg'
-title: About GRIP
+title: About | GRIP
 navigation: true
 logo: 'assets/images/arras.png'
 current: about
