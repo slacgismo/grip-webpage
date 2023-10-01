@@ -7,8 +7,8 @@ paginate: 5
 language: 'en-uk'
 
 # Website info
-name: 'Welcome to GRIP Energy!'
-description: "Grid Resilience and Intellegence Platform"
+name: 'Grid Resilience and Intellegence Platform'
+description: "Department of Energy’s SLAC National Accelerator Laboratory"
 
 short_url: https://www.arras.energy/
 google_analytics: UA-69281367-1
