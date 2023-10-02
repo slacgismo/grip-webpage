@@ -10,11 +10,6 @@ current: about
 
 # Anticipation
 Video Tutorial for Pole Analysis and Vegetation Case
-<video width="800" height="480" controls>
-    <source src="/videos/OpenFIDO.mp4" type="video/mp4">
-  </video>
-
-<br>
 
 # Absorption
 ### GRIP Absorption Objectives
