@@ -1,10 +1,10 @@
 ---
 layout: page
-cover: 'assets/images/trees.jpg'
+cover: 'assets/images/xl.jpg'
 navigation: True
 title:  "GMLC GCP | GRIP"
 date:   2023-07-20 11:59:00 -0700
-logo: 'assets/images/arras.png'
+logo: 'assets/images/griplogo.svg'
 current: about
 ---
 

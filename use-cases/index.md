@@ -4,12 +4,17 @@ cover: 'assets/images/talking.jpg'
 navigation: True
 title:  "Use Cases | GRIP"
 date:   2023-07-20 11:59:00 -0700
-logo: 'assets/images/arras.png'
+logo: 'assets/images/griplogo.svg'
 current: about
 ---
 
 # Anticipation
 Video Tutorial for Pole Analysis and Vegetation Case
+<video width="800" height="480" controls>
+    <source src="/videos/OpenFIDO.mp4" type="video/mp4">
+  </video>
+
+<br>
 
 # Absorption
 ### GRIP Absorption Objectives
@@ -33,13 +38,17 @@ Validation of the Virtual Islanding algorithms were used where two different tes
 
 While using the Virtual Islanding model, weather data was used from Los Angeles, CA and modeled the date October 15, 2020. This use-case involves wildfires taking out the bulk grid as well as the “supernode” in the distribution circuit where a solar plant is located. Figures 1(a),2(b), and 3(c) represent the fault locations, the results during the “baseline”, where the absorption module is turned off, and the results when absorption is turned on. The resulting virtual island is shown by the dashed line in Figure 3(c).
 
-Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-DFigure 1(a): Fire Test Case, Figure 1(b): Fire Baseline Results, Figure 1(c): Fire Absorption Results
+<img src="{{ site.baseurl }}assets/images/ab.png" alt="linux" style="max-width: 550px;">
+
+*Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-DFigure 1(a): Fire Test Case, Figure 1(b): Fire Baseline Results, Figure 1(c): Fire Absorption Results*
 
 ### Use-case: Case 2 (Ice)
 
 While using the Virtual Islanding model, weather data was used from Burling ton, VT and modeled the date January 30, 2020. This use-case involves an ice storm that takes out three nodes “supernodes" in the distribution circuit, one with a utility scale battery and one with a solar plant. Figures 2(d),2(e), and 2(f) illustrate the fault locations, the results during the “baseline”, where the absorption module is turned off, and the results when absorption is turned on. The resulting virtual islands are shown by the dashed line in Figure 2(f),however, the one in blue is an isolated island that is not supported by the bulk grid.
 
-Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-DFigure 2(d): Ice Test Case, Figure 2(e): Ice Baseline Results, Figure 2(f): Ice Absorption Results
+<img src="{{ site.baseurl }}assets/images/ab2.png" alt="linux" style="max-width: 550px;">
+
+*Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-DFigure 2(d): Ice Test Case, Figure 2(e): Ice Baseline Results, Figure 2(f): Ice Absorption Results*
 
 ### Virtual Island Management Optimization
 
@@ -51,7 +60,7 @@ The two factors that are needed to manage the distributed resources within those
 
 The Island Management Optimization takes information about the current state of larger DERs (or aggregated Packetized Virtual Batteries) in an islanded subsection of the distribution circuit, or micro-grid and the “baseline” or business-as-usual time-series data for that island, and returns the setpoints for the DERs or DER groups for the next time step. This controller is formulated as a receding horizon control (RHC) optimization problem of which is described in greater detail in the Publications section titled Absorbance Final Report.
 
-# Recovery
+# 3. Recovery
 Goal of the Recovery Phase and GRIP: leverage distributed energy resources (DER) to facilitate faster and safer electricity distribution network reconfiguration and recovery after a catastrophic network event.
 
 ### The Recovery use-case characteristics
@@ -74,10 +83,6 @@ Extremum Seeking (ES) is a model-free optimization and control approach that can
 
 ## Learn More
 Check out the [Tutorials](https://arras-energy.github.io/static-website/tutorials/) for more quick access to learning materials. Read into in-depth literature and news articles at [Reports](https://arras-energy.github.io/static-website/literature/). File all bugs/feature requests at [Arras Energy's GitHub repo](https://github.com/arras-energy).
-
-## Authors
-Chassin, David P., Alyona I. Teyber, Elizabeth Buechler, Duncan Ragsdale, Matthew Tisdale. 2023. HiPAS GridLAB-D: High-Performance Agent-based Simulation with GridLAB-D.
-California Energy Commission. Publication Number: CEC-500-202X-XXX.
 
 [Tutorials]:  https://arras-energy.github.io/static-website/tutorials/
 [Reports]:   https://arras-energy.github.io/static-website/literature/ 

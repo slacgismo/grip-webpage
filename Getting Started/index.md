@@ -4,7 +4,7 @@ cover: 'assets/images/2miles.jpg'
 navigation: True
 title:  "Getting Started | GRIP"
 date:   2023-07-20 11:59:00 -0700
-logo: 'assets/images/arras.png'
+logo: 'assets/images/griplogo.svg'
 current: about
 ---
 # Are You A User or Developer?

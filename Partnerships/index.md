@@ -3,7 +3,7 @@ layout: page
 cover: 'assets/images/sunrise.jpg'
 title: Partnerships | GRIP
 navigation: true
-logo: 'assets/images/arras.png'
+logo: 'assets/images/griplogo.svg'
 current: about
 ---
 

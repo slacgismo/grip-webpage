@@ -4,7 +4,7 @@ cover: 'assets/images/orange.jpg'
 navigation: True
 title:  "Contact | GRIP"
 date:   2023-07-20 11:59:00 -0700
-logo: 'assets/images/arras.png'
+logo: 'assets/images/griplogo.svg'
 current: about
 ---
 
