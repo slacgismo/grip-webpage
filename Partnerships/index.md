@@ -26,6 +26,10 @@ Delve into groundbreaking research and innovations in energy at [Berkeley Labora
 [<img src="{{ site.baseurl }}assets/images/NRECA.jpeg" alt="NRECA" style="max-width: 380px;">][NRECA]{:target="_blank"}
 Read about NRECA's commitment to sustainability and cutting-edge technologies for a greener world at [NRECA](https://www.electric.coop/){:target="_blank"}, where innovation meets environmental stewardship.
 
+[<img src="{{ site.baseurl }}assets/images/DHS.svg" alt="DHS" style="max-width: 380px;">][DHS]{:target="_blank"}
+
+Delve into the [Department of Homeland Security](https://www.dhs.gov/){:target="_blank"} plan of action in protecting our environment and ensuring electrical safety for everyone. 
+
 [<img src="{{ site.baseurl }}assets/images/packetized-energy.png" alt="Packetized Energy" style="max-width: 450px;" />][EnergyHub]{:target="_blank"}
 Discover how [Packetized Energy][EnergyHub]{:target="_blank"} is leading in sustainable energy solutions to power a greener future.
 
@@ -45,3 +49,4 @@ Experience the power of digital product consultancy and management with [Presenc
 [Presence]: https://presencepg.com/
 [Berkeley-Lab]: https://gridintegration.lbl.gov/
 [NRECA]: https://www.electric.coop/
+[DHS]: https://www.dhs.gov/
