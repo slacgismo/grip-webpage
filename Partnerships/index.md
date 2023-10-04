@@ -21,7 +21,7 @@ Explore cutting-edge research and advancements in energy science and technology 
 
 [<img src="{{ site.baseurl }}assets/images/berkeley-lab.png" alt="berk" style="max-width: 200px;">][Berkeley-Lab]{:target="_blank"}
 
-Delve into groundbreaking research and innovations in energy at [Berkeley Laboratory](https://gridintegration.lbl.gov/){:target="_blank"}, where scientific discoveries are shaping a sustainable future.
+Find out about the groundbreaking research and innovations in energy at [Berkeley Laboratory](https://gridintegration.lbl.gov/){:target="_blank"}, where scientific discoveries are shaping a sustainable future.
 
 [<img src="{{ site.baseurl }}assets/images/NRECA.jpeg" alt="NRECA" style="max-width: 380px;">][NRECA]{:target="_blank"}
 Read about NRECA's commitment to sustainability and cutting-edge technologies for a greener world at [NRECA](https://www.electric.coop/){:target="_blank"}, where innovation meets environmental stewardship.
