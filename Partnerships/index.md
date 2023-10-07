@@ -11,7 +11,7 @@ current: about
 
 To achieve our goals of making GRIP a high preforming software platform designed to help electric grid operators, our team has ensured to collaborate with the best.
 
-[<img src="{{ site.baseurl }}assets/images/stanford.png" alt="stanford" style="max-width: 390px;">](https://stanford.edu){:target="_blank"}
+[<img src="{{ site.baseurl }}assets/images/stanford.png" alt="stanford" style="max-width: 380px;">](https://stanford.edu){:target="_blank"}
 
 Discover groundbreaking energy research and initiatives led by [Stanford][Stanford]{:target="_blank"}'s top experts, shaping the future of sustainable energy solutions.
 
@@ -36,8 +36,7 @@ Discover how [Packetized Energy][EnergyHub]{:target="_blank"} is leading in sust
 [<img src="{{ site.baseurl }}assets/images/sce.png" alt="Southern California Edison Company" style="max-width: 360px;">][scec]{:target="_blank"}
 
 Explore [Southern California Edison Company][scec]{:target="_blank"}'s commitment to advancing renewable energy and grid modernization.
-
-[<img src="{{ site.baseurl }}assets/images/presence.png" alt="Presence" style="max-width: 190px;">][Presence]{:target="_blank"}
+[<img src="{{ site.baseurl }}assets/images/presence.png" alt="Presence" style="max-width: 185px;">][Presence]{:target="_blank"}
 Experience the power of digital product consultancy and management with [Presence](https://presencepg.com/){:target="_blank"}, empowering innovative and efficent customer experiences.
 
 
