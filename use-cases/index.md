@@ -9,7 +9,13 @@ current: about
 ---
 
 # Anticipation
-Video Tutorial for Pole Analysis and Vegetation Case
+- Video Tutorial for Pole Analysis and Vegetation Case
+
+## User Guide
+- [Quick Start 1](https://drive.google.com/drive/folders/1-oA-RnrnR_WXHLo1_t2hBN8wmFouvSXz){:target="_blank"} - GridLAB-D Quickstart
+- [Sample Models 2](http://tutorials.gridlabd.us/user/samplemodels.mp4){:target="_blank"} - Accessing Sample Models
+- [Weather Data 3](http://tutorials.gridlabd.us/user/weatherdata.mp4){:target="_blank"} - Getting weather data
+- [Load Models 4](http://tutorials.gridlabd.us/user/loadmodels.mp4){:target="_blank"} - Creating load models
 
 # Absorption
 ### GRIP Absorption Objectives

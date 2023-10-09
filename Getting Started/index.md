@@ -7,11 +7,13 @@ date:   2023-07-20 11:59:00 -0700
 logo: 'assets/images/griplogo.svg'
 current: about
 ---
-# Are You A User or Developer?
+# Learn To Use Our Platforms
+Whether you’re a beginner ready to learn the basics or an experienced developer seeking advanced implentation into your utilities, our collection of video and slide presentations has got you covered! Our expertly curated content is designed to guide you through each topic step-by-step, ensuring easy usage of the Grid Resilience and Intelligence Platform.
+
+## Choosing Your Path
 GRIP is supported on two platforms: **GMLC GCP** platform and **OpenFIDO** platform.
 Our open source applications serve as powerful learning tools for both beginning users and experienced developers alike.
 
-## Choosing Your Learning Path
 **User Guide:** For beginners, our video tutorials provide a visual and interactive way to learn how to use the software through step-by-step instructions.
 
 **Developer Guide:** For experienced developers, we offer both video tutorials and in-depth lecture slides enabling the implentation of advanced techniques and allow you to stay updated with the latest industry practices.

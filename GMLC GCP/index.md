@@ -8,26 +8,17 @@ logo: 'assets/images/griplogo.svg'
 current: about
 ---
 
-# Learn How To Use GRIP Energy 
+# Learn How To Use GMLC Platform
 
- Whether you're a beginner ready to learn the basics or an experienced developer seeking advanced implentation into your utilities, our collection of video and slide presentations has got you covered! Our expertly curated content is designed to guide you through each topic step-by-step, ensuring easy usage of Arras Energy.
+This platform supports analytics developed under the GMLC grant (See Analytics for more info). 
 
-## User Guide
-- [Quick Start 1](http://tutorials.gridlabd.us/){:target="_blank"} - GridLAB-D Quickstart
-- [Sample Models 2](http://tutorials.gridlabd.us/user/samplemodels.mp4){:target="_blank"} - Accessing Sample Models
-- [Weather Data 3](http://tutorials.gridlabd.us/user/weatherdata.mp4){:target="_blank"} - Getting weather data
-- [Load Models 4](http://tutorials.gridlabd.us/user/loadmodels.mp4){:target="_blank"} - Creating load models
+<h3 id="slides">Slides</h3>
 
-## Developer Guide
+<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
-- [Session 1](http://tutorials.gridlabd.us/developer/session1.mp4){:target="_blank"} - Introduction 
-- [Session 2](http://tutorials.gridlabd.us/developer/session2.mp4){:target="_blank"} - Building GridLAB-D 
-- [Session 3](http://tutorials.gridlabd.us/developer/session3.mp4){:target="_blank"} - GridLAB-D Modeling 
-- [Session 4](http://tutorials.gridlabd.us/developer/session4.mp4){:target="_blank"} - Testing and Validation
-- [Session 5](http://tutorials.gridlabd.us/developer/session5.mp4){:target="_blank"} - Modules and Classes
+<script async class="speakerdeck-embed" data-id="34d2856027ce01316b5d621ab8e7d421" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
-- [Session 6](http://tutorials.gridlabd.us/developer/session6-1.mp4){:target="_blank"} - Solvers 1 (Core Engine and Thermal)
-- [Session 6](http://tutorials.gridlabd.us/developer/session6-2.mp4){:target="_blank"} - Solvers 2 (Powerflow)
+<p>Culpa qui officia deserunt mollit anim id est laborum.</p>
 
 ## Learn More
 Check out the [Reports](https://arras-energy.github.io/static-website/literature/) for in-depth literature and news articles on Arras Energy. Learn about the sucess stories of Arras Energy’s implentation for [Use-Cases](https://arras-energy.github.io/static-website/use-cases/). File all bugs/feature requests at [Arras Energy's GitHub repo](https://github.com/arras-energy).

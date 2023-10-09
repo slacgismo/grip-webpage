@@ -7,27 +7,35 @@ date:   2023-07-20 11:59:00 -0700
 logo: 'assets/images/griplogo.svg'
 current: about
 ---
+# Learn How To Use OpenFIDO
 
-# Learn How To Use GRIP Energy 
+## [Getting Started](http://app.openfido.org){:target="_blank"} 
+There are several options to help new users starting out with OpenFIDO, which is accessible through several distinct methods, or developers looking to help contribute to the project.
 
- Whether you're a beginner ready to learn the basics or an experienced developer seeking advanced implentation into your utilities, our collection of video and slide presentations has got you covered! Our expertly curated content is designed to guide you through each topic step-by-step, ensuring easy usage of Arras Energy.
 
-## User Guide
-- [Quick Start 1](http://tutorials.gridlabd.us/){:target="_blank"} - GridLAB-D Quickstart
-- [Sample Models 2](http://tutorials.gridlabd.us/user/samplemodels.mp4){:target="_blank"} - Accessing Sample Models
-- [Weather Data 3](http://tutorials.gridlabd.us/user/weatherdata.mp4){:target="_blank"} - Getting weather data
-- [Load Models 4](http://tutorials.gridlabd.us/user/loadmodels.mp4){:target="_blank"} - Creating load models
+	
+## Sign up to shared app
+You can email the [support@openfido.org](mailto:support@openfido.org) to request to utilize the online application's resources. Once your request to use the application is approved, you will have access to all publicly available repositories that can be automatically searched in this organization, or you can manually designate your own repositories to run.
 
-## Developer Guide
+## Host Locally
+You can follow the instructions on the [OpenFIDO App Service](https://github.com/openfido/openfido-app-service){:target="_blank"} page or the [OpenFIDO Command Line Interface](https://github.com/openfido/cli){:target="_blank"} to set up locally, and run OpenFIDO to your prefererred method. 
 
-- [Session 1](http://tutorials.gridlabd.us/developer/session1.mp4){:target="_blank"} - Introduction 
-- [Session 2](http://tutorials.gridlabd.us/developer/session2.mp4){:target="_blank"} - Building GridLAB-D 
-- [Session 3](http://tutorials.gridlabd.us/developer/session3.mp4){:target="_blank"} - GridLAB-D Modeling 
-- [Session 4](http://tutorials.gridlabd.us/developer/session4.mp4){:target="_blank"} - Testing and Validation
-- [Session 5](http://tutorials.gridlabd.us/developer/session5.mp4){:target="_blank"} - Modules and Classes
+## Deploy to AWS
+You can use this code as a base to deploy your own OpenFIDO AWS servers. While the majority of the terraform modules used to deploy this are available in the centralized [OpenFIDO](https://github.com/openfido/openfido){:target="_blank"} repository, you will need to provide your own code for the cloudfront, rds, ecs, and ses terraform modules, as those are proprietary and licensed to us, and therefore unavailable for use. 
 
-- [Session 6](http://tutorials.gridlabd.us/developer/session6-1.mp4){:target="_blank"} - Solvers 1 (Core Engine and Thermal)
-- [Session 6](http://tutorials.gridlabd.us/developer/session6-2.mp4){:target="_blank"} - Solvers 2 (Powerflow)
+## Simulation Set-up
+
+Navigate to the sign-in page and use your credentials to gain access.
+
+<img src="{{ site.baseurl }}assets/images/OPENFIDO1.png" alt="openfido1" style="max-width: 480px;">
+
+Add a new pipeline. 
+
+<img src="{{ site.baseurl }}assets/images/OPENFIDO2.png" alt="openfido2" style="max-width: 550px;">
+
+Configure the pipeline for a Resilience use-case using the dropdown menu. 
+
+<img src="{{ site.baseurl }}assets/images/OPENFIDO3.png" alt="openfido3" style="max-width: 550px;">
 
 ## Learn More
 Check out the [Reports](https://arras-energy.github.io/static-website/literature/) for in-depth literature and news articles on Arras Energy. Learn about the sucess stories of Arras Energy’s implentation for [Use-Cases](https://arras-energy.github.io/static-website/use-cases/). File all bugs/feature requests at [Arras Energy's GitHub repo](https://github.com/arras-energy).
