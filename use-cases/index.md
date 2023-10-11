@@ -8,14 +8,21 @@ logo: 'assets/images/griplogo.svg'
 current: about
 ---
 
-# Anticipation
-- Video Tutorial for Pole Analysis and Vegetation Case
+# Grid Resilence In Action
+The goal of GRIP is to assist distribution utilities in responding to grid events by:
 
-## User Guide
-- [Quick Start 1](https://drive.google.com/drive/folders/1-oA-RnrnR_WXHLo1_t2hBN8wmFouvSXz){:target="_blank"} - GridLAB-D Quickstart
-- [Sample Models 2](http://tutorials.gridlabd.us/user/samplemodels.mp4){:target="_blank"} - Accessing Sample Models
-- [Weather Data 3](http://tutorials.gridlabd.us/user/weatherdata.mp4){:target="_blank"} - Getting weather data
-- [Load Models 4](http://tutorials.gridlabd.us/user/loadmodels.mp4){:target="_blank"} - Creating load models
+- Anticipating grid events using machine learning and artificial intelligence techniques with diverse data sources.
+- Absorbing grid events by employing validated control strategies for distributed energy resources; and
+- Reducing recovery time by managing distributed energy resources in the case of limited communications.
+
+# Anticipation
+<video width="640" height="360" controls>
+    <source src="your_video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+
+Video Tutorial for Pole Analysis and Vegetation Case
 
 # Absorption
 ### GRIP Absorption Objectives
@@ -61,7 +68,7 @@ The two factors that are needed to manage the distributed resources within those
 
 The Island Management Optimization takes information about the current state of larger DERs (or aggregated Packetized Virtual Batteries) in an islanded subsection of the distribution circuit, or micro-grid and the “baseline” or business-as-usual time-series data for that island, and returns the setpoints for the DERs or DER groups for the next time step. This controller is formulated as a receding horizon control (RHC) optimization problem of which is described in greater detail in the Publications section titled Absorbance Final Report.
 
-# 3. Recovery
+# Recovery
 Goal of the Recovery Phase and GRIP: leverage distributed energy resources (DER) to facilitate faster and safer electricity distribution network reconfiguration and recovery after a catastrophic network event.
 
 ### The Recovery use-case characteristics
