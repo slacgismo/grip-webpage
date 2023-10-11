@@ -1,6 +1,6 @@
 ---
 layout: page
-cover: 'assets/images/xl.jpg'
+cover: 'assets/images/painting.jpg'
 navigation: True
 title:  "Contact | GRIP"
 date:   2023-07-20 11:59:00 -0700
@@ -8,7 +8,7 @@ logo: 'assets/images/griplogo.svg'
 current: about
 ---
 
-# Contact Us
+# Connect With Us
 <body>
     <p>Have questions or feedback? Contact us using the form below:</p>
 
