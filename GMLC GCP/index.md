@@ -9,7 +9,7 @@ current: about
 ---
 
 # Learn How To Use GMLC Platform
-
+ 
 Unlock the Power of the GMLC GCP Platform: Your Guide to Advanced Analytics
 which supports data developed under the GMLC grant. 
 
