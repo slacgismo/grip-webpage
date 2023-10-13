@@ -8,20 +8,14 @@ logo: 'assets/images/griplogo.svg'
 current: about
 ---
 
-# Connect With Us
-<body>
-    <p>Have questions or feedback? Contact us using the form below:</p>
+# Have questions or feedback?
+- Contact our project lead [Alyona Teyber](mailto:aivanova@slac.stanford.edu).
+- Visit [Grid Integration Systems and Mobility](https://gismo.slac.stanford.edu/){:target="_blank"} to learn more about our work at SLAC National Labratory 
 
-    <form action="process_form.php" method="POST">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required><br><br>
+## Learn More
+Check out the [Tutorials](https://arras-energy.github.io/static-website/tutorials/) for more quick access to learning materials. Learn about the sucess stories of Arras Energy's implentation for [Use-Cases](https://arras-energy.github.io/static-website/use-cases/). File all bugs/feature requests at [Arras Energy's GitHub repo](https://github.com/arras-energy).
 
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required><br><br>
-
-        <label for="message">Message:</label><br>
-        <textarea id="message" name="message" rows="4" required></textarea><br><br>
-
-        <input type="submit" value="Submit">
-    </form>
-</body>
+[Tutorials]:  https://arras-energy.github.io/static-website/tutorials/
+[Reports]:   https://arras-energy.github.io/static-website/literature/ 
+[Use-Cases]:  https://arras-energy.github.io/static-website/use-cases/ 
+[Arras Energy's GitHub repo]: https://github.com/arras-energy
