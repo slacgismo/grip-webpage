@@ -10,52 +10,41 @@ current: about
 
 # Learn How To Use GMLC Platform
  
-Our top technology utilizes advanced analytics supported by data developed under the GMLC grant. Follow our guide for an implentation of techniques to stay updated with the latest industry practices.
+This platform supports analytics developed under the GMLC grant. Follow our guide for an implentation of advanced data techniques to stay updated with the latest industry practices.
 
 **Step 1**: Create a username and password to access your account.
-![Figure 2-Hinesburg circuit plotted with edge width relative to GridLab-D](/DEMO_1_SLIDE_1.png)
+<img src="{{ site.baseurl }}assets/images/demo1.png" alt="linux" style="max-width: 600px;">
 
 **Step 2**: Access your dashboard from the menu, and select *simulation under the Anticipation option*. You can access various simulations depending on what you choose.
-![Figure 2-Hinesburg circuit plotted with edge width relative to GridLab-D](/GRIP_DEMO_1_ANT_SLIDE_2.png)
+<img src="{{ site.baseurl }}assets/images/demo2.png" alt="linux" style="max-width: 600px;">
 
 **Step 3**: Access GRIP simulation analysis for risk modeling and quantification questions that pertain to vegetation. This is where the user can access information such as vulnerability levels, navigate specific node locations. The simulation analysis allows for users to see effects of vegetation on on the electrical system and the effect of the electrical system on the surrounding environment.
 
-![Figure 2-Hinesburg circuit plotted with edge width relative to GridLab-D](/GRIP_DEMO_1_SLIDE_3.png)
+<img src="{{ site.baseurl }}assets/images/simulations.png" alt="linux" style="max-width: 600px;">
 
 
-![Figure 2-Hinesburg circuit plotted with edge width relative to GridLab-D](/GRIP_DEMO_1_SLIDE_4.png)
+<img src="{{ site.baseurl }}assets/images/node 2.png" alt="linux" style="max-width: 600px;">
 
 
-![Figure 2-Hinesburg circuit plotted with edge width relative to GridLab-D](/GRIP_DEMO_1_SLIDE_5.png)
+<img src="{{ site.baseurl }}assets/images/simulation2.png" alt="linux" style="max-width: 600px;">
 
-
-## Do not worry, you are almost there
-
-**Absorption**
-
-*We would like to show you our GRIP design...with cool features of course!*
-
-![Figure 2-Hinesburg circuit plotted with edge width relative to GridLab-D](/AB_DEMO_2_SLIDE_1.png)
-
-**Let us tell you about the features:**
-
+**Absorption Features:**
 1. Users can view previous and active Absorption simulations
 2. Users get an overview of key metrics and outcomes
 3. Management and link out to simulation details
 
-**But wait, there's more**
+<img src="{{ site.baseurl }}assets/images/absorption.png" alt="linux" style="max-width: 700px;">
 
-![Figure 2-Hinesburg circuit plotted with edge width relative to GridLab-D](/AB_DEMO_2_SLIDE_2.png)
-
-Now, with simulation setup under Absorption, we have features such as:
-
+**Now, with simulation setup under Absorption, we have features such as:**
 1. GLM model support
 2. Specification of simulation Duration
 3. Toggle Absorption algorithm
 
+<img src="{{ site.baseurl }}assets/images/mysim.png" alt="linux" style="max-width: 600px;">
+
 During the simulation, users can see a graphical representation of Network Topology.
 
-![Figure 2-Hinesburg circuit plotted with edge width relative to GridLab-D](/AB_DEMO_2_SLIDE_3.png)
+<img src="{{ site.baseurl }}assets/images/nofaults.png" alt="linux" style="max-width: 600px;">
 
 Under this simulation, users can access tools such as:
 
@@ -71,9 +60,7 @@ In addition, users have access to the Asset editor under Absorption where they c
 2. Live edit Solar/Battery properties
 3. Overview of key Asset properties
 
-![Figure 2-Hinesburg circuit plotted with edge width relative to GridLab-D](/AB_DEMO_2_SLIDE_4.png)
-
-*We are almost arriving at the Finish-line!*
+<img src="{{ site.baseurl }}assets/images/firea.png" alt="linux" style="max-width: 700px;">
 
 **Recovery**
 
@@ -82,11 +69,11 @@ Under the dashboard under Recovery, users have access to features such as:
 1. View previous and active Recovery simulations
 2. Management and link out to simulation details
 
-![Figure 2-Hinesburg circuit plotted with edge width relative to GridLab-D](/REC_DEMO_3_SLIDE_1.png)
+<img src="{{ site.baseurl }}assets/images/1.png" alt="linux" style="max-width: 650px;">
 
 Users can then proceed with Recovery setup for the recovery simulation (similar process used for Absorption).
 
-![Figure 2-Hinesburg circuit plotted with edge width relative to GridLab-D](/REC_DEMO_3_SLIDE_2.png)
+<img src="{{ site.baseurl }}assets/images/2.png" alt="linux" style="max-width: 650px;">
 
 The Recovery setup features:
 
@@ -96,7 +83,7 @@ The Recovery setup features:
 
 We then move to Recovery Simulation Configuration
 
-![Figure 2-Hinesburg circuit plotted with edge width relative to GridLab-D](/REC_DEMO_3_SLIDE_3.png)
+<img src="{{ site.baseurl }}assets/images/3.png" alt="linux" style="max-width: 650px;">
 
 Key Features include:
 1. Graphical/Map representation of Network Topology
@@ -111,25 +98,23 @@ Once the user inputs the configurations for the simulations, users will see grap
 4. Segment Node Voltage differences output
 5. Toggle across Controller phases
 
-![Figure 2-Hinesburg circuit plotted with edge width relative to GridLab-D](/REC_DEMO_3_SLIDE_4.png)
+<img src="{{ site.baseurl }}assets/images/4.png" alt="linux" style="max-width: 650px;">
 
 *We have reached the finish-line!*
 
 Lastly, when dealing with the user interface, users can view the network topology, which feature segment optimization configuration. Users can also adjust controllers and view specific nodes.Once users load a simulation, they have access to the network topology.
 
-![Figure 2-Hinesburg circuit plotted with edge width relative to GridLab-D](/REC_DEMO_3_SLIDE_5.png)
+<img src="{{ site.baseurl }}assets/images/5.png" alt="linux" style="max-width: 650px;">
 
-![Figure 2-Hinesburg circuit plotted with edge width relative to GridLab-D](/REC_DEMO_3_SLIDE_6.png)
+<img src="{{ site.baseurl }}assets/images/6.png" alt="linux" style="max-width: 650px;">
 
-![Figure 2-Hinesburg circuit plotted with edge width relative to GridLab-D](/REC_DEMO_3_SLIDE_7.png)
+<img src="{{ site.baseurl }}assets/images/7.png" alt="linux" style="max-width: 650px;">
 
-![Figure 2-Hinesburg circuit plotted with edge width relative to GridLab-D](/REC_DEMO_3_SLIDE_8.png)
+<img src="{{ site.baseurl }}assets/images/8.png" alt="linux" style="max-width: 650px;">
 
-![Figure 2-Hinesburg circuit plotted with edge width relative to GridLab-D](/REC_DEMO_3_SLIDE_9.png)
+<img src="{{ site.baseurl }}assets/images/9.png" alt="linux" style="max-width: 650px;">
 
-![Figure 2-Hinesburg circuit plotted with edge width relative to GridLab-D](/REC_DEMO_3_SLIDE_10.png)
-
-
+<img src="{{ site.baseurl }}assets/images/10.png" alt="linux" style="max-width: 650px;">
 
 ## Learn More
 Check out the [Reports](https://arras-energy.github.io/static-website/literature/) for in-depth literature and news articles on Arras Energy. Learn about the sucess stories of Arras Energy’s implentation for [Use-Cases](https://arras-energy.github.io/static-website/use-cases/). File all bugs/feature requests at [Arras Energy's GitHub repo](https://github.com/arras-energy).

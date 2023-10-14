@@ -8,9 +8,12 @@ logo: 'assets/images/griplogo.svg'
 current: about
 ---
 # Learn To Use Our Platforms
-Whether you’re a beginner ready to learn the basics or an experienced developer seeking advanced implentation into your utilities, our collection of video and presentations has got you covered! Our expertly curated content is designed to guide you through each topic step-by-step, ensuring easy usage of our Grid Resilience and Intelligence Platform.
+GRIP is supported on two platforms: GMLC GCP platform and OpenFIDO platform. 
+Whether you’re a beginner ready to learn the basics or an experienced developer seeking advanced implentation into your utilities, our collection of video and presentations has got you covered! 
 
 ## Choosing Your Path
+
+Our expertly curated content is designed to guide you through each topic step-by-step, ensuring easy usage of our Grid Resilience and Intelligence Platform.
 
 **User Guide:** For beginners and platform contributors, **OpenFIDO** is an accessible for new comers to get started as well as tools for developers looking to help contribute to the project. Our tutorials provide a visual and interactive way to learn how to use the software through step-by-step instructions.
 
@@ -21,9 +24,9 @@ Whether you’re a beginner ready to learn the basics or an experienced develope
 
 
 ## Learn More
-Navigate to [Tutorials](https://arras-energy.github.io/static-website/tutorials/) to get started on the learning materials. Learn about the sucess stories of Arras Energy’s implentation for [Use-Cases](https://arras-energy.github.io/static-website/use-cases/). Read into in-depth literature and news articles at [Reports](https://arras-energy.github.io/static-website/literature/).
+Navigate to [Tutorials](https://arras-energy.github.io/static-website/tutorials/) to get started on the learning materials. Learn about the sucess stories of Arras Energy’s implentation for [Use-Cases](https://arras-energy.github.io/static-website/use-cases/). Read into in-depth literature and news articles at [Publications](https://arras-energy.github.io/static-website/literature/).
 
 [Tutorials]:  https://arras-energy.github.io/static-website/tutorials/
-[Reports]:   https://arras-energy.github.io/static-website/literature/ 
+[Publications]:   https://arras-energy.github.io/static-website/literature/ 
 [Use-Cases]:  https://arras-energy.github.io/static-website/use-cases/ 
 [Arras Energy's GitHub repo]: https://github.com/arras-energy
