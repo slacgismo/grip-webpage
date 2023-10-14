@@ -9,7 +9,7 @@ current: about
 ---
 # Learn How To Use OpenFIDO
 
-## [Getting Started](http://app.openfido.org){:target="_blank"} 
+[Getting Started:](http://app.openfido.org){:target="_blank"} 
 There are several options to help new users starting out with OpenFIDO, which is accessible through several distinct methods, or developers looking to help contribute to the project.
 
 

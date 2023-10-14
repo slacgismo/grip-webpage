@@ -10,8 +10,7 @@ current: about
 
 # Learn How To Use GMLC Platform
  
-Unlock the Power of the GMLC GCP Platform: Your Guide to Advanced Analytics
-which supports data developed under the GMLC grant. 
+Our top technology utilizes advanced analytics supported by data developed under the GMLC grant. Follow our guide for an implentation of techniques to stay updated with the latest industry practices.
 
 **Step 1**: Create a username and password to access your account.
 ![Figure 2-Hinesburg circuit plotted with edge width relative to GridLab-D](/DEMO_1_SLIDE_1.png)
