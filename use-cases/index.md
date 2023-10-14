@@ -1,6 +1,6 @@
 ---
 layout: page
-cover: 'assets/images/talking.jpg'
+cover: 'assets/images/lines.jpg'
 navigation: True
 title:  "Use Cases | GRIP"
 date:   2023-07-20 11:59:00 -0700

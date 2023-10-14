@@ -8,7 +8,7 @@ logo: 'assets/images/griplogo.svg'
 current: about
 ---
 # Learn To Use Our Platforms
-Whether you’re a beginner ready to learn the basics or an experienced developer seeking advanced implentation into your utilities, our collection of video and slide presentations has got you covered! Our expertly curated content is designed to guide you through each topic step-by-step, ensuring easy usage of the Grid Resilience and Intelligence Platform.
+Whether you’re a beginner ready to learn the basics or an experienced developer seeking advanced implentation into your utilities, our collection of video and presentations has got you covered! Our expertly curated content is designed to guide you through each topic step-by-step, ensuring easy usage of our Grid Resilience and Intelligence Platform.
 
 ## Choosing Your Path
 

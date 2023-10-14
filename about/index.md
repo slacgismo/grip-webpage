@@ -1,6 +1,6 @@
 ---
 layout: page
-cover: 'assets/images/trees.jpg'
+cover: 'assets/images/forest.jpg'
 title: About | GRIP
 navigation: true
 logo: 'assets/images/griplogo.svg'
@@ -23,7 +23,7 @@ With GRIP, electrical utility operators can reduce operating costs by optimizing
 
 Increasingly frequent severe weather events cost grid operators billions of dollars per year in repair cost. In 2022, $12.4 billion in weather related utility debt was issued in the U.S., which has led to dramatic increase in prices of electricity across several states. In the state of Louisiana alone, severe storms caused an estimated $4.4 billion in grid damage in 2020 and 2021. In response to this growing risk, grid operators are spending billions of dollars annually to harden their infrastructure against harm. 
 
-<img src="{{ site.baseurl }}assets/images/2workers.jpg" alt="linux" style="max-width: 500px;">
+<img src="{{ site.baseurl }}assets/images/fire.jpg" alt="linux" style="max-width: 500px;">
 
 Without effective tools to guide these investments, their effectiveness is limited.  Utilities are plagued by department data silos, leaving them ill-equipped to focus their grid hardening investments where it will do the most good. In addition, these silos result in an inability to quantify the indirect costs associated with large scale weather events, such as accident liability costs. Without an accurate view into these costs, grid operators struggle to justify long term investments disassociated from short-term rate design cycle. 
 
@@ -43,7 +43,7 @@ GRIP can unlock several benefits, including:
 
 **Improved Resilience:** GRIP can help to improve the resilience of the energy grid by providing early warning of potential disruptions and enabling a rapid response to these disruptions. Given limited resources, GRIP aids in determining the grid asset hardening prioritization given grid topology, local generation, types of consumers and other relevant data. This can help reduce the impact of disruptions and minimize downtime, in turn reducing liability costs due to negligence, and reduce grid hardening costs.
 
-<img src="{{ site.baseurl }}assets/images/fire.jpg" alt="linux" style="max-width: 520px;">
+<img src="{{ site.baseurl }}assets/images/crane.jpg" alt="linux" style="max-width: 520px;">
 
 **Revenue Impact:** GRIP can evaluate the reliability and resilience performance of the electrical grid. GRIP can provide real-time monitoring of grid performance, predictive maintenance, and the ability to quickly respond to disruptions. This can help to reduce downtime and improve the overall efficiency of the energy system, helping to attract new customers and increase revenue by unlocking new revenue streams. 
 

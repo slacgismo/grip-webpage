@@ -1,6 +1,6 @@
 ---
 layout: page
-cover: 'assets/images/2miles.jpg'
+cover: 'assets/images/candy.jpg'
 navigation: True
 title:  "GMLC GCP | GRIP"
 date:   2023-07-20 11:59:00 -0700
