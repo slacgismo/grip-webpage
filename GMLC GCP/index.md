@@ -75,7 +75,7 @@ Users can then proceed with Recovery setup for the recovery simulation (similar 
 
 <img src="{{ site.baseurl }}assets/images/2.png" alt="linux" style="max-width: 650px;">
 
-The Recovery setup features:
+**The Recovery setup features:**
 
 1. GLM model support
 2. Weather model support
