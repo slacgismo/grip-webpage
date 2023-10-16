@@ -43,4 +43,4 @@ Check out the [Tutorials](https://arras-energy.github.io/static-website/tutorial
 [Tutorials]:  https://arras-energy.github.io/static-website/tutorials/
 [Reports]:   https://arras-energy.github.io/static-website/literature/ 
 [Use-Cases]:  https://arras-energy.github.io/static-website/use-cases/ 
-[Arras Energy's GitHub repo]: https://github.com/arras-energy
+[GRIP Energy's GitHub repo]: https://github.com/slacgismo/grip-webpage

@@ -1,33 +1,109 @@
-# Arras Energy - Public Website
-This the public website https://arras-energy.github.io/static-website/ for commerical release of Arras Energy, formerly known as HiPAS GridLab-D. 
+# Grid Resilience and Intellegence Platform - Public Website
 
-Arras Energy is a robust open-source simulation platform designed to address the evolving challenges of electricity distribution power systems in the context of smart grids and renewable energy integration. This platform serves as a valuable tool for utilities, researchers, and technology vendors, enabling them to develop, refine, and deploy advanced solutions in the domain of smart-grid technologies and renewable energy integration. 
+GRIP is a project led by the Department of Energy’s SLAC National Accelerator Laboratory that combines artificial intelligence with massive amounts of data and industry experience from a dozen U.S. partners to identify places where the electric grid is vulnerable to disruption, reinforce those spots in advance and recover faster when failures do occur.
 
-Feel free to add and edit content to this website!
+# GRIP-Website - https://grip.energy
+
+This repo uses a static website generator - Jeykll (https://jekyllrb.com/)
+
+## Setting Up locally
+
+Install homebrew if not installed.
+
+```
+    brew install hugo
+```
+
+## Running locally
+
+Navigate to the root directory of this project
+
+```
+    hugo server
+```
+
+Go to the suggested localhost address on your terminal
+(The changes will be auto updated - no need to run this command after every content change)
+
+## Making changes
+
+All the content changes should be happening in the content folder
+
+### Adding a new publication
+
+    1- Navigate to the desired section under /content/publications
+    2- Create a new "<li></li>" the same way as what already exists
+    3- Upload the pdf of the publication to the GRIP-portal/papers folder in the SharedDrive (Do the same thing with personal drive if not a part of GISMo team)
+    4- Update the sharing options to "Anyone with the link" and make sure they are only a viewer
+    5.1 - Copy only the ID (the 25 character code) from the sharable link - which is between "https://drive.google.com/file/d/" and "/view?usp=sharing"
+    5.2 - Paste it at the end of this link - "https://drive.google.com/uc?export=view&id=" and replace it with the existing URL in the src field
+
+### Adding a new team member
+
+    1- Navigate to /content/team.html
+    2- Use existing links as example and follow steps 3-5.2 under "adding a new publication". (Instead of papers, navigate to GRIP-portal/team)
+
+### Adding a use-case
+
+    1- Create a new file in content/use-cases with .md extension
+    2- Use an existing use case as example. (the first 4 lines are required)
+    3- Update the title on line 2 and start writing markdown for the remainder of the file
+
+### Changing the home page content
+
+    Update the subtitle under profile-mode in config.yml. (this requires rerunning the 'hugo server' command for local testing)
+
+#### To modify existing use-cases update the markdown within any use-case file
+
+### Modifying the Getting Started Guide
+
+    Update the markdown within content/getting-started-guide
+
+## Deploying
+
+    Auto deploy is setup using Netlify. Changes merged in to the main branch auto update https://grip.energy.
+
+## GitHub Repositories
+   This repository includes GRIP-webpage archetypes:
+    https://github.com/slacgismo/grip-webpage/tree/main/archetypes/
+
+    This repository for the GRIP-webapge content:
+    https://github.com/slacgismo/grip-webpage/tree/main/content/
+
+    This repository includes the layouts and partials of the GRIP-webpage:
+    https://github.com/slacgismo/grip-webpage/tree/main/layouts/partials/
+
+    This repository includes the static for the GRIP webpage:
+    https://github.com/slacgismo/grip-webpage/tree/main/static/
+
+    This repository includes the themes/ paperMod for the GRIP webpage:
+    https://github.com/slacgismo/grip-webpage/tree/main/themes/PaperMod/
+
+    This repository includes deployment page set up:
+    https://github.com/slacgismo/grip-webpage/blob/main/.gitignore/
+
+    This repository includes step by step setup of GRIP website:
+    https://github.com/slacgismo/grip-webpage/blob/main/README.md/
+
+    This repository includes the setup for the analytics page of the GRIP webpage:
+    https://github.com/slacgismo/grip-webpage/blob/main/config.yml/
 ________
 
 **Home Page**
-<img width="1432" alt="Home Page" src="https://github.com/arras-energy/static-website/assets/128001866/b40d2a20-5089-4731-b540-3d0726cb59d9">
+<img width="1432" alt="Home Page" src="https://github.com/arras-energy/static-website/assets/homepage">
 
 <br/>
 
 **Content Page**
 
-<img width="1429" alt="Content Page" src="https://github.com/arras-energy/static-website/assets/128001866/20141b34-05ae-422d-9f4a-bdf2348635a0">
+<img width="1429" alt="Content Page" src="https://github.com/arras-energy/static-website/assets/content">
 
 <br/>
 
 **Menu Bar**
-<img width="1427" alt="Menu Bar" src="https://github.com/arras-energy/static-website/assets/128001866/9fd84fe4-1a92-4340-ae67-267714adff1a">
+<img width="1427" alt="Menu Bar" src="https://github.com/arras-energy/static-website/assets/menubar">
 
 <br/>
-
-## Getting Started
-
-Whether you are a user or a developer, Arras Energy offers comprehensive resources to facilitate your journey into the world of advanced electricity distribution power systems simulation. This website hosts the following:
-- **[Tutorials](https://arras-energy.github.io/static-website/tutorials/)**: Learn the ins and outs of Arras Energy with our curated collection of video presentations and slide guides. Whether you're an entry-level user or an adept developer, our resources cater to all skill levels.
-- **[Use-Cases](https://arras-energy.github.io/static-website/use-cases/)**: Explore the success stories of Arras Energy's implementation in real-world scenarios. Dive into use-cases spanning diverse areas such as solar and batteries (ICA), resilience in the face of wildfires and storms, innovative tariff and billing structures, and the realization of a greener planet through electrification.
-- **[Reports](https://arras-energy.github.io/static-website/literature/)**: Delve into in-depth literature and stay updated with news articles related to the advancements and applications of Arras Energy in the field of electricity distribution power systems.
 
 ## How To Maintain Website Content
 
@@ -95,8 +171,6 @@ To run a GridLAB-D simulation using Docker, follow these steps:
 docker run -it -v $PWD:/model slacgismo/gridlabd:latest gridlabd -W /model [LOADOPTIONS] [FILENAME.EXT] [RUNOPTIONS]
 ```
 
-See [Dockerhub HiPAS](https://hub.docker.com/r/hipas/gridlabd/tags) repositories for a list of available images.
-
 ## Run on AWS
 1. Sign into your AWS console.
 2. Launch an EC2 instance.
@@ -131,11 +205,5 @@ cd gridlabd
 
 ## Issues and contributing
 
-This website refers to all installations and tutorials on Arras Energy's offical GitHub page. If you run into any problems please refer to [Arras Energy GitHub](https://github.com/arras-energy) for more information.
+This website refers to all installations and tutorials on Arras Energy's offical GitHub page. If you run into any problems please refer to [GRIP Energy GitHub](https://github.com/slacgismo/grip-webpage) for more information.
 Feel free pull-request your patches and fixes.
-
-## Learn More
-
-Begin your journey by navigating to our Tutorials section, where you can access comprehensive learning materials. Uncover the success stories of Arras Energy's implementation in various Use-Cases. For a deeper understanding, explore our Reports section, offering in-depth literature and relevant news articles.
-
-Start learning and implementing with Arras Energy today, and be part of shaping the future of electricity distribution power systems!

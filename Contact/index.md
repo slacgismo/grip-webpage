@@ -1,6 +1,6 @@
 ---
 layout: page
-cover: 'assets/images/ice.jpg'
+cover: 'assets/images/station.jpg'
 navigation: True
 title:  "Contact | GRIP"
 date:   2023-07-20 11:59:00 -0700
