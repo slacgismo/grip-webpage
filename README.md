@@ -89,22 +89,6 @@ All the content changes should be happening in the content folder
     https://github.com/slacgismo/grip-webpage/blob/main/config.yml/
 ________
 
-**Home Page**
-<img width="1432" alt="Home Page" src="https://github.com/grip-webpage/tree/revamp/assets/homepage.png">
-
-<br/>
-
-**Content Page**
-
-<img width="1429" alt="Content Page" src="https://github.com/grip-webpage/tree/revamp/assets/content.png">
-
-<br/>
-
-**Menu Bar**
-<img width="1427" alt="Menu Bar" src="https://github.com/grip-webpage/tree/revamp/assets/menubar.png">
-
-<br/>
-
 ## How To Maintain Website Content
 
 ### Deployment
