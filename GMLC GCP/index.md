@@ -117,9 +117,9 @@ Lastly, when dealing with the user interface, users can view the network topolog
 <img src="{{ site.baseurl }}assets/images/10.png" alt="linux" style="max-width: 650px;">
 
 ## Learn More
-Check out the [Reports](https://arras-energy.github.io/static-website/literature/) for in-depth literature and news articles on Arras Energy. Learn about the sucess stories of Arras Energy’s implentation for [Use-Cases](https://arras-energy.github.io/static-website/use-cases/). File all bugs/feature requests at [Arras Energy's GitHub repo](https://github.com/arras-energy).
+Check out the [Publications](https://arras-energy.github.io/static-website/literature/) for in-depth literature and news articles on GRIP. Learn about the sucess stories of GRIP's implentation for [Use-Cases](https://arras-energy.github.io/static-website/use-cases/). File all bugs/feature requests at [GRIP's GitHub repo](https://github.com/arras-energy).
 
 [Tutorials]:  https://arras-energy.github.io/static-website/tutorials/
 [Reports]:   https://arras-energy.github.io/static-website/literature/ 
 [Use-Cases]:  https://arras-energy.github.io/static-website/use-cases/ 
-[Arras Energy's GitHub repo]: https://github.com/arras-energy
+[GRIP's GitHub repo]: https://github.com/arras-energy

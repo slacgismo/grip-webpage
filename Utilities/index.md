@@ -39,11 +39,10 @@ Several commercially available products on the market provide tailored solutions
 For GRIP to reach its scalable commercial potential, the platform requires additional utility deployments to generate the key performance metrics data from a real operational system. To address this challenge, we have secured additional funding to integrate the GRIP with a transactive utility operation system deployed at New Hampshire Electric Cooperative and plan to deploy it in the utilities under the Efficiency Maine Trust’s jurisdiction. We will continue working with SCE and other utilities to develop additional use-cases. Furthermore, we will seek out additional partners to deploy and utilize GRIP in other geographical locations. 
 
 ## Learn More
-Check out the [Tutorials](https://arras-energy.github.io/static-website/tutorials/) for more quick access to learning materials. Learn about the sucess stories of Arras Energy's implentation for [Use-Cases](https://arras-energy.github.io/static-website/use-cases/). Read into in-depth literature and news articles at [Publications](https://arras-energy.github.io/static-website/literature/). 
+Check out the [Tutorials](https://www.grip.energy/getting-started/) for more quick access to learning materials. Learn about the sucess stories of GRIP Energy's implentation for [Use-Cases](https://www.grip.energy/use-cases/). Read into in-depth literature and news articles at [Publications](https://grip.energy/publications/). 
 
-[Tutorials]:  https://arras-energy.github.io/static-website/tutorials/
-[Publications]:   https://arras-energy.github.io/static-website/literature/ 
-[Use-Cases]:  https://arras-energy.github.io/static-website/use-cases/  
-[Arras Energy's GitHub repo]: https://github.com/arras-energy
-
+[Tutorials]:  https://www.grip.energy/getting-started/
+[Publication]:  https://grip.energy/publications/
+[Use-Cases]:  https://www.grip.energy/use-cases/  
+[GRIP Energy's GitHub repo]: https://github.com/slacgismo/grip-webpage
 

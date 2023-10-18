@@ -86,9 +86,9 @@ Extremum Seeking (ES) is a model-free optimization and control approach that can
 
 
 ## Learn More
-Check out the [Tutorials](https://arras-energy.github.io/static-website/tutorials/) for more quick access to learning materials. Read into in-depth literature and news articles at [Reports](https://arras-energy.github.io/static-website/literature/). File all bugs/feature requests at [Arras Energy's GitHub repo](https://github.com/arras-energy).
+Check out the [Tutorials](https://arras-energy.github.io/static-website/tutorials/) for more quick access to learning materials. Read into in-depth literature and news articles at [Publications](https://arras-energy.github.io/static-website/literature/). File all bugs/feature requests at [GRIP's GitHub repo](https://github.com/arras-energy).
 
 [Tutorials]:  https://arras-energy.github.io/static-website/tutorials/
-[Reports]:   https://arras-energy.github.io/static-website/literature/ 
+[Publications]:   https://arras-energy.github.io/static-website/literature/ 
 [Use-Cases]:  https://arras-energy.github.io/static-website/use-cases/ 
-[Arras Energy's GitHub repo]: https://github.com/arras-energy
+[GRIP's GitHub repo]: https://github.com/arras-energy

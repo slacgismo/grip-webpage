@@ -44,11 +44,11 @@ GRIP can unlock several benefits, including:
 **Equity and diversity:** GRIP is designed to quantify the impact of devastating events on the entire electricity distribution system. By considering the census data, system topology redundancy, local generation and resiliency-enabling technology availability, GRIP can aid utility operators to correctly allocate limited energy resources while best supporting  disadvantaged communities.
 
 ## Learn More
-Check out the [Tutorials](https://arras-energy.github.io/static-website/tutorials/) for more quick access to learning materials. Learn about the sucess stories of Arras Energy's implentation for [Use-Cases](https://arras-energy.github.io/static-website/use-cases/). Read into in-depth literature and news articles at [Reports](https://arras-energy.github.io/static-website/literature/). 
+Check out the [Tutorials](https://www.grip.energy/getting-started/) for more quick access to learning materials. Learn about the sucess stories of GRIP Energy's implentation for [Use-Cases](https://www.grip.energy/use-cases/). Read into in-depth literature and news articles at [Publications](https://grip.energy/publications/). 
 
-[Tutorials]:  https://arras-energy.github.io/static-website/tutorials/
-[Reports]:   https://arras-energy.github.io/static-website/literature/ 
-[Use-Cases]:  https://arras-energy.github.io/static-website/use-cases/  
-[Arras Energy's GitHub repo]: https://github.com/arras-energy
+[Tutorials]:  https://www.grip.energy/getting-started/
+[Publication]:  https://grip.energy/publications/
+[Use-Cases]:  https://www.grip.energy/use-cases/  
+[GRIP Energy's GitHub repo]: https://github.com/slacgismo/grip-webpage
 
 

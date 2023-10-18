@@ -15,18 +15,18 @@ Whether you’re a beginner ready to learn the basics or an experienced develope
 
 Our expertly curated content is designed to guide you through each topic step-by-step, ensuring easy usage of our Grid Resilience and Intelligence Platform.
 
-**User Guide:** For beginners and platform contributors, **OpenFIDO** is an accessible for new comers to get started as well as tools for developers looking to help contribute to the project. Our tutorials provide a visual and interactive way to learn how to use the software through step-by-step instructions.
+**User Guide:** For beginners and platform contributors, **[OpenFIDO](https://arras-energy.github.io/static-website/tutorials/)** is an accessible for new comers to get started as well as tools for developers looking to help contribute to the project. Our tutorials provide a visual and interactive way to learn how to use the software through step-by-step instructions.
 
-**Developer Guide:** For experienced developers, our **GMLC Platfrom** supports analytics developed under the GMLC grant enabling the implentation of advanced techniques and allow you to stay updated with the latest industry practices. 
+**Developer Guide:** For experienced developers, our **[GMLC Platform](https://arras-energy.github.io/static-website/tutorials/)** supports analytics developed under the GMLC grant enabling the implentation of advanced techniques and allow you to stay updated with the latest industry practices. 
 
 *Navigate the the menu bar to select which platform you prefer!*
 
 
 
 ## Learn More
-Navigate to [Tutorials](https://arras-energy.github.io/static-website/tutorials/) to get started on the learning materials. Learn about the sucess stories of Arras Energy’s implentation for [Use-Cases](https://arras-energy.github.io/static-website/use-cases/). Read into in-depth literature and news articles at [Publications](https://arras-energy.github.io/static-website/literature/).
+Navigate to [OpenFIDO](https://arras-energy.github.io/static-website/tutorials/) to get started on the learning materials. Learn about the sucess stories of GRIP's implentation for [Use-Cases](https://arras-energy.github.io/static-website/use-cases/). Read into in-depth literature and news articles at [Publications](https://arras-energy.github.io/static-website/literature/).
 
-[Tutorials]:  https://arras-energy.github.io/static-website/tutorials/
-[Publications]:   https://arras-energy.github.io/static-website/literature/ 
-[Use-Cases]:  https://arras-energy.github.io/static-website/use-cases/ 
-[Arras Energy's GitHub repo]: https://github.com/arras-energy
+[Tutorials]:  https://www.grip.energy/getting-started/
+[Publication]:  https://grip.energy/publications/
+[Use-Cases]:  https://www.grip.energy/use-cases/  
+[GRIP's GitHub repo]: https://github.com/slacgismo/grip-webpage
