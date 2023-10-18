@@ -90,18 +90,18 @@ All the content changes should be happening in the content folder
 ________
 
 **Home Page**
-<img width="1432" alt="Home Page" src="https://github.com/arras-energy/static-website/assets/homepage">
+<img width="1432" alt="Home Page" src="https://github.com/arras-energy/static-website/assets/homepage.png">
 
 <br/>
 
 **Content Page**
 
-<img width="1429" alt="Content Page" src="https://github.com/arras-energy/static-website/assets/content">
+<img width="1429" alt="Content Page" src="https://github.com/arras-energy/static-website/assets/content.png">
 
 <br/>
 
 **Menu Bar**
-<img width="1427" alt="Menu Bar" src="https://github.com/arras-energy/static-website/assets/menubar">
+<img width="1427" alt="Menu Bar" src="https://github.com/arras-energy/static-website/assets/menubar.png">
 
 <br/>
 
