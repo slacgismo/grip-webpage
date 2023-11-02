@@ -36,7 +36,11 @@ The GRIP Absorption platform allows electric utilities to better understand how 
 
 ###### Real-world use-case scenarios using Virtual Islanding Model:
 
-Validation of the Virtual Islanding algorithms were used where two different test systems were developed: a small 11-node distribution system that was used for preliminary validation and a larger test case based on real data from our utility partner, Vermont Electric Coop. The 11-node test case includes two substation nodes and three feeders, each of which includes both distributed Solar PV generation and grid-scale storage. In addition, it is assumed that there are many ‘packetized’ water heaters and HVAC systems that can contribute to network balancing. For the purpose of validation, two case illustrative resilience scenarios were developed:(Case 1: Fire) to represent fire damage to a distribution network and (Case 2:Ice) to represent ice damage.
+Validation of the Virtual Islanding algorithms were used where two different test systems were developed: a small 11-node distribution system that was used for preliminary validation and a larger test case based on real data from our utility partner, Vermont Electric Coop.
+
+<img src="{{ site.baseurl }}assets/images/snow.jpg" alt="linux" style="max-width: 550px;">
+
+ The 11-node test case includes two substation nodes and three feeders, each of which includes both distributed Solar PV generation and grid-scale storage. In addition, it is assumed that there are many ‘packetized’ water heaters and HVAC systems that can contribute to network balancing. For the purpose of validation, two case illustrative resilience scenarios were developed:(Case 1: Fire) to represent fire damage to a distribution network and (Case 2:Ice) to represent ice damage.
 
 ###### Use-case: Case 1 (Fire)
 

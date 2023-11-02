@@ -11,6 +11,10 @@ current: about
 
 To achieve our goals of making GRIP a high preforming software platform designed to help electric grid operators, our team has ensured to collaborate with the best.
 
+[<img src="{{ site.baseurl }}/assets/images/lfenergy.png" alt="linux" style="max-width: 450px;">](https://lfenergy.org/){:target="_blank"}
+
+Dive into the world of open-source energy software and learn how the [Linux Foundation][Linux Foundation]{:target="_blank"} drives energy industry advancements by supporting innovative projects like [Arras Energy][Arras Energy]{:target="_blank"}. 
+
 [<img src="{{ site.baseurl }}assets/images/stanford.png" alt="stanford" style="max-width: 380px;">](https://stanford.edu){:target="_blank"}
 
 Discover groundbreaking energy research and initiatives led by [Stanford][Stanford]{:target="_blank"}'s top experts, shaping the future of sustainable energy solutions.
@@ -49,3 +53,5 @@ Experience the power of digital product consultancy and management with [Presenc
 [Berkeley-Lab]: https://gridintegration.lbl.gov/
 [NRECA]: https://www.electric.coop/
 [DHS]: https://www.dhs.gov/
+[Linux Foundation]: https://lfenergy.org/
+[Arras Energy]: https://www.arras.energy/
