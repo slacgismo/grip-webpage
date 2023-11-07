@@ -43,7 +43,6 @@ Explore [Southern California Edison Company][scec]{:target="_blank"}'s commitmen
 [<img src="{{ site.baseurl }}assets/images/presence.png" alt="Presence" style="max-width: 185px;">][Presence]{:target="_blank"}
 Experience the power of digital product consultancy and management with [Presence](https://presencepg.com/){:target="_blank"}, empowering innovative and efficent customer experiences.
 
-
 [slac]: https://www6.slac.stanford.edu/
 [stanford]:   https://stanford.edu
 [GitHub]: https://github.com/slacgismo/grip-webpage   
