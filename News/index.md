@@ -2,7 +2,7 @@
 layout: page
 cover: 'assets/images/painting.jpg'
 navigation: True
-title:  "Contact | GRIP"
+title:  "News | GRIP"
 date:   2023-07-20 11:59:00 -0700
 logo: 'assets/images/griplogo.svg'
 current: about
