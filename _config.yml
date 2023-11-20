@@ -7,7 +7,7 @@ paginate: 5
 language: 'en-uk'
 
 # Website info
-name: 'Grid Resilience and<br>Intellegence Platform'
+title: 'Grid Resilience and<br>Intellegence Platform'
 
 short_url: https://www.arras.energy/
 google_analytics: UA-69281367-1
