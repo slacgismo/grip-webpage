@@ -1,0 +1,53 @@
+---
+layout: default
+title: Home | GRIP
+cover: 'assets/images/1.jpg'
+class: 'home-template'
+navigation: True
+logo: 'assets/images/griplogo.svg'
+current: home
+---
+
+<header class="main-header {% if page.cover %}"
+        style="background-image: url({{ site.baseurl }}{{ page.cover }}) {% else %}no-cover{% endif %}">
+    <nav class="main-nav overlay clearfix">
+        {% if page.logo %}<a class="blog-logo" href="{{ site.baseurl }}"><img src="{{ site.baseurl }}{{ page.logo }}" alt="Blog Logo" style="width: 125px; height: 45px;"/></a>{% endif %}
+        {% if page.navigation %}
+            <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
+        {% endif %}
+    </nav>
+    <div class="vertical">
+        <div class="main-header-content inner">
+            <h1 class="page-title">{{ site.name }}</h1>
+            <h2 class="page-description">{{ site.description }}</h2>
+        </div>
+    </div>
+</header>
+
+<main id="content" class="content" role="main">
+</main>
+
+<footer style="background-color: rgb(0, 0, 0); color: white; padding: 15px;">
+  <div style="display: flex; justify-content: center; align-items: center; text-align: center;">
+    <div style="margin: -40px; flex: 1;">
+      <a href="https://www.energy.gov/" target="_blank">
+        <img src="{{ site.baseurl }}assets/images/DOE_Logo_White.png" alt="U.S. Department of Energy" style="max-width: 45%; margin-top: 10px;">
+      </a>
+    </div>
+    <div style="margin: 7px -50px 2px; flex: 1;">
+      <a href="https://www.stanford.edu/" target="_blank">
+        <img src="{{ site.baseurl }}assets/images/stanford-logo.png" alt="Stanford University" style="max-width: 50%; margin-top: 0px;">
+      </a>
+    </div>
+    <div style="margin: 7px -45px 2px; flex: 1;">
+      <a href="https://lfenergy.org/" target="_blank">
+      <img src="{{ site.baseurl }}/assets/images/white-LF.png" alt="Linux Foundation" style="max-width: 70%; margin-top: 0px;">
+    </div>
+    <div style="margin: -30px; flex: 1;">
+      <a href="https://www6.slac.stanford.edu/" target="_blank">
+        <img src="{{ site.baseurl }}assets/images/whiteslac.webp" alt="SLAC National Accelerator Laboratory" style="max-width: 55%; margin-top: 0px;">
+      </a>
+    </div>
+  </div>
+  <p style="text-align: center; color: white;">Copyright © 2023 SLAC National Accelerator Laboratory.</p>
+</footer>
