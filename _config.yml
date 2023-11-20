@@ -9,7 +9,7 @@ language: 'en-uk'
 # Website info
 name: 'Grid Resilience and<br>Intellegence Platform'
 
-short_url: https://www.arras.energy/
+short_url: https://www.grip.energy/
 google_analytics: UA-69281367-1
 disqus: username
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
