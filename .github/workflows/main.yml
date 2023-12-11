@@ -31,10 +31,13 @@ jobs:
         run: |
           gem install bundler:2.4.17
           gem update --system
-          bundle install
+          bundle install --verbose
 
       - name: Build Jekyll Site
-        run: bundle exec jekyll build
+        run: |
+          bundle exec jekyll build
+          ls -R
+
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
@@ -46,4 +49,4 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: jekyll-artifact
-          path: ''
+          path: _site
