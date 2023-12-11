@@ -9,3 +9,4 @@ gem "addressable", ">= 2.8.0"
 gem "webrick", "~> 1.8"
 
 gem "liquid", "~> 4.0.4"
+gem "faraday-retry", "~> 2.2.0"
