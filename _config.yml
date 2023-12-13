@@ -54,6 +54,7 @@ production_url:  https://www.grip.energy/
 source_url:  https://github.com/jekyllt/jasper/
 
 exclude:
+  - News
   - README.md
   - Rakefile
   - Gemfile

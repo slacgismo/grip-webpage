@@ -14,14 +14,6 @@ alyona:
   url: profiles.stanford.edu/alyona-ivanova
   bio: Staff Engineer at SLAC National Accelerator Laboratory. Project lead on Grid Resilence & Intellegence Platform
   assets: assets/images/lewis.jpeg
-elizabeth:
-  username: Elizabeth
-  name: Elizabeth Buechler
-  location: California, USA
-  url_full: https://profiles.stanford.edu/elizabeth-buechler
-  url: profiles.stanford.edu/elizabeth-buechler
-  bio: Stanford PhD candidate in mechanical engineering. Research focus on demand-side flexibility, residential electrification, and DER integration.
-  assets: assets/images/abraham.jpg
 duncan:
   username: duncan
   name: Duncan Ragsdale
@@ -30,11 +22,3 @@ duncan:
   url: profiles.stanford.edu/duncan-ragsdale
   bio: Software engineer at SLAC National Accelerator Laboratory, GISMo Staff Engineer
   assets: assets/images/edgar.gif
-kimberly:
-  username: kimberly
-  name: Kimberly Hickok
-  location: California, USA
-  url_full: https://profiles.stanford.edu/kimberly-hickok 
-  url: profiles.stanford.edu/kimberly-hickok
-  bio: Univeristy Staff at Stanford Linear Accelerator Center (SLAC)
-  assets: assets/images/martin.jpg
