@@ -6,63 +6,6 @@ GRIP is a project led by the Department of Energy’s SLAC National Accelerator 
 
 This repo uses a static website generator - Jeykll (https://jekyllrb.com/)
 
-## Setting Up locally
-
-Install homebrew if not installed.
-
-```
-    brew install hugo
-```
-
-## Running locally
-
-Navigate to the root directory of this project
-
-```
-    hugo server
-```
-
-Go to the suggested localhost address on your terminal
-(The changes will be auto updated - no need to run this command after every content change)
-
-## Making changes
-
-All the content changes should be happening in the content folder
-
-### Adding a new publication
-
-    1- Navigate to the desired section under /content/publications
-    2- Create a new "<li></li>" the same way as what already exists
-    3- Upload the pdf of the publication to the GRIP-portal/papers folder in the SharedDrive (Do the same thing with personal drive if not a part of GISMo team)
-    4- Update the sharing options to "Anyone with the link" and make sure they are only a viewer
-    5.1 - Copy only the ID (the 25 character code) from the sharable link - which is between "https://drive.google.com/file/d/" and "/view?usp=sharing"
-    5.2 - Paste it at the end of this link - "https://drive.google.com/uc?export=view&id=" and replace it with the existing URL in the src field
-
-### Adding a new team member
-
-    1- Navigate to /content/team.html
-    2- Use existing links as example and follow steps 3-5.2 under "adding a new publication". (Instead of papers, navigate to GRIP-portal/team)
-
-### Adding a use-case
-
-    1- Create a new file in content/use-cases with .md extension
-    2- Use an existing use case as example. (the first 4 lines are required)
-    3- Update the title on line 2 and start writing markdown for the remainder of the file
-
-### Changing the home page content
-
-    Update the subtitle under profile-mode in config.yml. (this requires rerunning the 'hugo server' command for local testing)
-
-#### To modify existing use-cases update the markdown within any use-case file
-
-### Modifying the Getting Started Guide
-
-    Update the markdown within content/getting-started-guide
-
-## Deploying
-
-    Auto deploy is setup using Netlify. Changes merged in to the main branch auto update https://grip.energy.
-
 ## GitHub Repositories
    This repository includes GRIP-webpage archetypes:
     https://github.com/slacgismo/grip-webpage/tree/main/archetypes/
@@ -139,7 +82,7 @@ current: about
 ## Run on GitHub
 <img width="1428" alt="GitHub Pages" src="https://github.com/arras-energy/static-website/assets/128001866/088211f7-1bed-4bc5-9805-c031a08de475">
 
-You can run Arras Energy with GitHub Actions using the template https://github.com/gridlabd-tutorials/.new_project. The simulation results are stored in a downloadable file that can accessed from the ```Actions``` tab in your GitHub project. A tutorial for using Arras Energy with GitHub is available at https://github.com/gridlabd-tutorials.
+You can run GRIP with GitHub Actions using the template https://github.com/gridlabd-tutorials/.new_project. The simulation results are stored in a downloadable file that can accessed from the ```Actions``` tab in your GitHub project. A tutorial for using Arras Energy with GitHub is available at https://github.com/gridlabd-tutorials.
 
 ## Run on Docker
 

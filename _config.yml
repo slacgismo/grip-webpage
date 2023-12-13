@@ -8,7 +8,7 @@ language: 'en-uk'
 
 # Website info
 name: 'Grid Resilience and<br>Intelligence Platform'
-description: 'Grip is a platform for the development of grid resilience and intelligence solutions.'
+description: 'Platform for electrical grid resilience data and solutions.'
 
 short_url: https://www.grip.energy/
 google_analytics: UA-69281367-1
