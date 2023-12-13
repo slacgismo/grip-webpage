@@ -15,11 +15,11 @@ GRIP uses telemetry data to identify infrastructure most at risk from severe wea
 
 By taking an overall system perspective, GRIP is unique in its ability to coordinate heterogeneous datasets and derive numerous features to enable a proactive response to extreme weather.
 
-<img src="{{ site.baseurl }}assets/images/snow.jpg" alt="linux" style="max-width: 550px;">
+<img src="/assets/images/snow.jpg" alt="linux" style="max-width: 550px;">
 
  GRIP integrates disparate sources of data that don't usually get analyzed in the same context, while also providing an alternative source of data for the information that may not be available internally. For example, prior to an event, GRIP can use telemetry data to identify portions of the grid that are most likely to experience asset failure due to extreme wind or vegetation strike or identify wildland areas at risk of wildfire from close grid interface . Armed with this information, grid operators can deploy field resources in a timely manner to minimize equipment damage or loss of revenue due to power outages.
 
-<img src="{{ site.baseurl }}assets/images/metric.png" alt="linux" style="max-width: 550px;">
+<img src="/assets/images/metric.png" alt="linux" style="max-width: 550px;">
 *Figure 1: GRIP's analytical capabilities for mitagating extreme weather effects on the grid.*
 
 
@@ -30,7 +30,7 @@ Prior to an extreme weather event, GRIP can generate scenarios to minimize custo
 Several commercially available products on the market provide tailored solutions to either address system design or provide hosting platforms for utility data. Utilities also depend on in-house software tools to help manage operations. This diversity of tools results in uncoordinated intra department data sharing, gaps in analysis and overall operational inefficiency. As a result, GRIP provides more features for the same price as the competition.
 
 <div style="text-align: center;">
-  <img src="{{ site.baseurl }}assets/images/simulations.png" alt="linux" style="max-width: 550px;">
+  <img src="/assets/images/simulations.png" alt="linux" style="max-width: 550px;">
   <p style="text-align: center; font-style: italic;">Figure 2: GRIP's user interface that hosts analytics and various data sets.</p>
 </div>
 

@@ -18,7 +18,7 @@ GRIP is a project led by the Department of Energy’s SLAC National Accelerator 
 
 GRIP uses telemetry data to identify infrastructure most at risk from severe weather. One of the key strengths of GRIP is its threat-agnostic grid modeling capabilities. Regardless of the type of extreme weather event, if telemetry data is available regarding the failed asset, GRIP's system modeling capabilities can provide actionable insights to the grid operator. The project has been deployed with one of the largest California investor-owned utilities (IOUs), Southern California Edison (SCE).
 
-<img src="{{ site.baseurl }}assets/images/fire.jpg" alt="linux" style="max-width: 500px;">
+<img src="/assets/images/fire.jpg" alt="linux" style="max-width: 500px;">
 
 The goal of GRIP is to assist distribution utilities in responding to grid events by:
 
@@ -32,7 +32,7 @@ With GRIP, electrical utility operators can reduce operating costs by optimizing
 
 Increasingly frequent severe weather events cost grid operators billions of dollars per year in repair cost. In 2022, $12.4 billion in weather related utility debt was issued in the U.S., which has led to dramatic increase in prices of electricity across several states. In the state of Louisiana alone, severe storms caused an estimated $4.4 billion in grid damage in 2020 and 2021. In response to this growing risk, grid operators are spending billions of dollars annually to harden their infrastructure against harm. 
 
-<img src="{{ site.baseurl }}assets/images/crane.jpg" alt="linux" style="max-width: 520px;">
+<img src="/assets/images/crane.jpg" alt="linux" style="max-width: 520px;">
 
 Without effective tools to guide these investments, their effectiveness is limited.  Utilities are plagued by department data silos, leaving them ill-equipped to focus their grid hardening investments where it will do the most good. In addition, these silos result in an inability to quantify the indirect costs associated with large scale weather events, such as accident liability costs. Without an accurate view into these costs, grid operators struggle to justify long term investments disassociated from short-term rate design cycle. 
 
@@ -42,7 +42,7 @@ By taking an overall system perspective, GRIP is unique in its ability to coordi
 
  GRIP integrates disparate sources of data that don't usually get analyzed in the same context, while also providing an alternative source of data for the information that may not be available internally. For example, prior to an event, GRIP can use telemetry data to identify portions of the grid that are most likely to experience asset failure due to extreme wind or vegetation strike or identify wildland areas at risk of wildfire from close grid interface . Armed with this information, grid operators can deploy field resources in a timely manner to minimize equipment damage or loss of revenue due to power outages.
 
-<img src="{{ site.baseurl }}assets/images/metric.png" alt="linux" style="max-width: 550px;">
+<img src="/assets/images/metric.png" alt="linux" style="max-width: 550px;">
 *Figure 1: GRIP's analytical capabilities for mitagating extreme weather effects on the grid.*
 
 
@@ -62,7 +62,7 @@ GRIP can unlock several benefits, including:
 Several commercially available products on the market provide tailored solutions to either address system design or provide hosting platforms for utility data. Utilities also depend on in-house software tools to help manage operations. This diversity of tools results in uncoordinated intra department data sharing, gaps in analysis and overall operational inefficiency. As a result, GRIP provides more features for the same price as the competition.
 
 <div style="text-align: center;">
-  <img src="{{ site.baseurl }}assets/images/simulations.png" alt="linux" style="max-width: 550px;">
+  <img src="/assets/images/simulations.png" alt="linux" style="max-width: 550px;">
   <p style="text-align: center; font-style: italic;">Figure 2: GRIP's user interface that hosts analytics and various data sets.</p>
 </div>
 

@@ -27,15 +27,15 @@ You can use this code as a base to deploy your own OpenFIDO AWS servers. While t
 
 Navigate to the sign-in page and use your credentials to gain access.
 
-<img src="{{ site.baseurl }}assets/images/OPENFIDO1.png" alt="openfido1" style="max-width: 480px;">
+<img src="/assets/images/OPENFIDO1.png" alt="openfido1" style="max-width: 480px;">
 
 Add a new pipeline. 
 
-<img src="{{ site.baseurl }}assets/images/OPENFIDO2.png" alt="openfido2" style="max-width: 550px;">
+<img src="/assets/images/OPENFIDO2.png" alt="openfido2" style="max-width: 550px;">
 
 Configure the pipeline for a Resilience use-case using the dropdown menu. 
 
-<img src="{{ site.baseurl }}assets/images/OPENFIDO3.png" alt="openfido3" style="max-width: 550px;">
+<img src="/assets/images/OPENFIDO3.png" alt="openfido3" style="max-width: 550px;">
 
 ## Learn More
 Check out the [Publications](https://arras-energy.github.io/static-website/literature/) for in-depth literature and news articles on GRIP. Learn about the sucess stories of GRIP's implentation for [Use-Cases](https://arras-energy.github.io/static-website/use-cases/). File all bugs/feature requests at [GRIP's GitHub repo](https://github.com/arras-energy).

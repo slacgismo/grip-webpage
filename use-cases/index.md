@@ -38,7 +38,7 @@ The GRIP Absorption platform allows electric utilities to better understand how 
 
 Validation of the Virtual Islanding algorithms were used where two different test systems were developed: a small 11-node distribution system that was used for preliminary validation and a larger test case based on real data from our utility partner, Vermont Electric Coop.
 
-<img src="{{ site.baseurl }}assets/images/snow.jpg" alt="linux" style="max-width: 550px;">
+<img src="/assets/images/snow.jpg" alt="linux" style="max-width: 550px;">
 
  The 11-node test case includes two substation nodes and three feeders, each of which includes both distributed Solar PV generation and grid-scale storage. In addition, it is assumed that there are many ‘packetized’ water heaters and HVAC systems that can contribute to network balancing. For the purpose of validation, two case illustrative resilience scenarios were developed:(Case 1: Fire) to represent fire damage to a distribution network and (Case 2:Ice) to represent ice damage.
 
@@ -46,7 +46,7 @@ Validation of the Virtual Islanding algorithms were used where two different tes
 
 While using the Virtual Islanding model, weather data was used from Los Angeles, CA and modeled the date October 15, 2020. This use-case involves wildfires taking out the bulk grid as well as the “supernode” in the distribution circuit where a solar plant is located. Figures 1(a),2(b), and 3(c) represent the fault locations, the results during the “baseline”, where the absorption module is turned off, and the results when absorption is turned on. The resulting virtual island is shown by the dashed line in Figure 3(c).
 
-<img src="{{ site.baseurl }}assets/images/ab.png" alt="linux" style="max-width: 550px;">
+<img src="/assets/images/ab.png" alt="linux" style="max-width: 550px;">
 
 *Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-DFigure 1(a): Fire Test Case, Figure 1(b): Fire Baseline Results, Figure 1(c): Fire Absorption Results*
 
@@ -54,7 +54,7 @@ While using the Virtual Islanding model, weather data was used from Los Angeles,
 
 While using the Virtual Islanding model, weather data was used from Burling ton, VT and modeled the date January 30, 2020. This use-case involves an ice storm that takes out three nodes “supernodes" in the distribution circuit, one with a utility scale battery and one with a solar plant. Figures 2(d),2(e), and 2(f) illustrate the fault locations, the results during the “baseline”, where the absorption module is turned off, and the results when absorption is turned on. The resulting virtual islands are shown by the dashed line in Figure 2(f),however, the one in blue is an isolated island that is not supported by the bulk grid.
 
-<img src="{{ site.baseurl }}assets/images/ab2.png" alt="linux" style="max-width: 550px;">
+<img src="/assets/images/ab2.png" alt="linux" style="max-width: 550px;">
 
 *Figure 1-Hinesburg circuit plotted with edge width relative to GridLab-DFigure 2(d): Ice Test Case, Figure 2(e): Ice Baseline Results, Figure 2(f): Ice Absorption Results*
 
