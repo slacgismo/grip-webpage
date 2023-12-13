@@ -9,11 +9,11 @@ language: 'en-uk'
 # Website info
 title: 'Grid Resilience and<br>Intellegence Platform'
 
-short_url: https://slacgismo.github.io/
+short_url: https://slacgismo.github.io/grip-webpage/
 google_analytics: UA-69281367-1
 disqus: username
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl: '/'
+baseurl: ''
 
 # Permalinks
 permalink: /:title
