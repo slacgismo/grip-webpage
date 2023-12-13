@@ -8,7 +8,7 @@ current: about
 ---
 
 
-# Combating Cilmate Change with Electrical Grid Resilience
+# Combating Climate Change with Electrical Grid Resilience
 
 GRIP (Grid Resilience and Intelligence Platform) is a cutting-edge software platform designed to help electric grid operators anticipate, mitigate against, and recover from the effects of extreme weather events. By combining state-of-the-art agent-based grid modeling tools with grid resilience metrics, GRIP can quantify the state of the grid assets before extreme events, and provide grid operators with actionable insights, such as staging maintenance crew locations, proactive pole hardening or grid topology reconfiguration, to help minimize equipment damage and revenue loss due to power outages. 
 
