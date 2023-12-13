@@ -24,7 +24,7 @@ Our expertly curated content is designed to guide you through each topic step-by
 
 
 ## Learn More
-Navigate to [OpenFIDO](https://arras-energy.github.io/static-website/tutorials/) to get started on the learning materials. Learn about the sucess stories of GRIP's implentation for [Use-Cases](https://arras-energy.github.io/static-website/use-cases/). Read into in-depth literature and news articles at [Publications](https://arras-energy.github.io/static-website/literature/).
+Navigate to [OpenFIDO](https://www.grip.energy/OpenFIDO/) to get started on the learning materials. Learn about the sucess stories of GRIP's implentation for [Use-Cases](https://www.grip.energy/use-cases/). Read into in-depth literature and news articles at [Publications](https://www.grip.energy/Publications/).
 
 [Tutorials]:  https://www.grip.energy/getting-started/
 [Publication]:  https://grip.energy/publications/
