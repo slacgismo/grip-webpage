@@ -7,9 +7,10 @@ paginate: 5
 language: 'en-uk'
 
 # Website info
-title: 'Grid Resilience and<br>Intellegence Platform'
+name: 'Grid Resilience and<br>Intelligence Platform'
+description: 'Grip is a platform for the development of grid resilience and intelligence solutions.'
 
-short_url: https://slacgismo.github.io/grip-webpage/
+short_url: https://www.grip.energy/
 google_analytics: UA-69281367-1
 disqus: username
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
@@ -49,7 +50,7 @@ repo: jasper
 branch: master
 relative_source: ../jasper/
 destination: ../jasper-pages/
-production_url:  https://slacgismo.github.io/grip-webpage/
+production_url:  https://www.grip.energy/
 source_url:  https://github.com/jekyllt/jasper/
 
 exclude:
