@@ -38,7 +38,7 @@ Welcome to our diverse resource page, filled with curated literature, reports, a
     - M. D. Sankur , R. Dobbe , A. von Meier , Member, IEEE, and D. B. Arnold, "Model-Free Optimal Voltage Phasor Regulation in Unbalanced Distribution Systems" IEEE Transactions on SMART GRID.,VOL.11, NO. 1,p.11, JANUARY 2020.
 
 ## Learn More
-Check out the [Tutorials](https://arras-energy.github.io/static-website/tutorials/) for more quick access to learning materials. Learn about the sucess stories of Arras Energy's implentation for [Use-Cases](https://arras-energy.github.io/static-website/use-cases/). File all bugs/feature requests at [GRIP's GitHub repo](https://github.com/slacgismo/grip-webpage).
+Check out the [Tutorials](https://www.grip.energy/Getting%20Started/) for more quick access to learning materials. Learn about the sucess stories of Arras Energy's implentation for [Use-Cases](https://www.grip.energy/use-cases/). File all bugs/feature requests at [GRIP's GitHub repo](https://github.com/slacgismo/grip-webpage){:target="_blank"}.
 
 [Tutorials]:  https://arras-energy.github.io/static-website/tutorials/
 [Publications]:   https://arras-energy.github.io/static-website/literature/ 
