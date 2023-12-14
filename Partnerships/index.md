@@ -11,7 +11,7 @@ current: about
 
 To achieve our goals of making GRIP a high preforming software platform designed to help electric grid operators, our team has ensured to collaborate with the best.
 
-[<img src="//assets/images/lfenergy.png" alt="linux" style="max-width: 450px;">](https://lfenergy.org/){:target="_blank"}
+[<img src="/assets/images/lfenergy.png" alt="linux" style="max-width: 450px;">](https://lfenergy.org/){:target="_blank"}
 
 Dive into the world of open-source energy software and learn how the [Linux Foundation][Linux Foundation]{:target="_blank"} drives energy industry advancements by supporting innovative projects like [Arras Energy][Arras Energy]{:target="_blank"}. 
 
