@@ -7,7 +7,7 @@ logo: 'assets/images/griplogo.svg'
 current: about
 ---
 
-# Meet Our Team
+# Meet Our Partners
 
 To achieve our goals of making GRIP a high preforming software platform designed to help electric grid operators, our team has ensured to collaborate with the best.
 
