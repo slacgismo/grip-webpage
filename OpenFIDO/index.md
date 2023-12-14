@@ -38,7 +38,7 @@ Configure the pipeline for a Resilience use-case using the dropdown menu.
 <img src="/assets/images/OPENFIDO3.png" alt="openfido3" style="max-width: 550px;">
 
 ## Learn More
-Check out the [Publications](https://www.grip.energy/Publications/) for in-depth literature and news articles on GRIP. Learn about the sucess stories of GRIP's implentation for [Use-Cases](https://www.grip.energy/use-cases/). File all bugs/feature requests at [GRIP's GitHub repo](https://github.com/arras-energy){:target="_blank"}.
+Check out the [Publications](https://www.grip.energy/Publications/) for in-depth literature and news articles on GRIP. Learn about the sucess stories of GRIP's implentation for [Use-Cases](https://www.grip.energy/use-cases/). File all bugs/feature requests at [GRIP's GitHub repo](https://github.com/slacgismo/grip-webpage){:target="_blank"}.
 
 [Tutorials]:  https://arras-energy.github.io/static-website/tutorials/
 [Reports]:   https://arras-energy.github.io/static-website/literature/ 
