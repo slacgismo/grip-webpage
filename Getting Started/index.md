@@ -15,9 +15,9 @@ Whether you’re a beginner ready to learn the basics or an experienced develope
 
 Our expertly curated content is designed to guide you through each topic step-by-step, ensuring easy usage of our Grid Resilience and Intelligence Platform.
 
-**User Guide:** For beginners and platform contributors, **[OpenFIDO](https://arras-energy.github.io/static-website/tutorials/)** is an accessible for new comers to get started as well as tools for developers looking to help contribute to the project. Our tutorials provide a visual and interactive way to learn how to use the software through step-by-step instructions.
+**User Guide:** For beginners and platform contributors, **[OpenFIDO](https://www.grip.energy/OpenFIDO/)** is an accessible for new comers to get started as well as tools for developers looking to help contribute to the project. Our tutorials provide a visual and interactive way to learn how to use the software through step-by-step instructions.
 
-**Developer Guide:** For experienced developers, our **[GMLC Platform](https://arras-energy.github.io/static-website/tutorials/)** supports analytics developed under the GMLC grant enabling the implentation of advanced techniques and allow you to stay updated with the latest industry practices. 
+**Developer Guide:** For experienced developers, our **[GMLC Platform](https://www.grip.energy/GMLC%20GCP/)** supports analytics developed under the GMLC grant enabling the implentation of advanced techniques and allow you to stay updated with the latest industry practices. 
 
 *Navigate the the menu bar to select which platform you prefer!*
 
